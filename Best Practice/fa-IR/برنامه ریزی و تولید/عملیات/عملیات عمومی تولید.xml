@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--This file created by Sayan software.-->
+<!--Web: www.sayanpardaz.com-->
+<Template>
+  <ProceedingRoot>
+    <Proceeding Code="60" Title="درخواست مواد" EffectiveCode="0" CanBaseLess="true" Formula="" HasAccount="false" HasPrice="false" SystemCode="4" IsReserve="false" IsEnable="true" Description="" />
+    <Proceeding Code="61" Title="سند مصرف" EffectiveCode="-1" CanBaseLess="true" Formula="" HasAccount="false" HasPrice="false" SystemCode="4" IsReserve="false" IsEnable="true" Description="" />
+    <Proceeding Code="62" Title="اعلامیه تولید" EffectiveCode="1" CanBaseLess="true" Formula="" HasAccount="false" HasPrice="false" SystemCode="4" IsReserve="false" IsEnable="true" Description="" />
+    <Proceeding Code="63" Title="اعلامیه ضایعات" EffectiveCode="1" CanBaseLess="true" Formula="" HasAccount="false" HasPrice="false" SystemCode="4" IsReserve="false" IsEnable="true" Description="" />
+  </ProceedingRoot>
+  <ParameterRoot>
+    <Parameter ProceedingCode="60" Title="کد فرعی" IsDetail="false" Type="متن" IsNullable="true" IsReadOnly="false" HasAccount="false" Size="200" Arrange="102" Formula="" FormulaCode="102" EffectiveCode="0" Description="" MasterKey="6" />
+    <Parameter ProceedingCode="60" Title="توضیحات" IsDetail="false" Type="متن" IsNullable="true" IsReadOnly="false" HasAccount="false" Size="200" Arrange="103" Formula="" FormulaCode="103" EffectiveCode="0" Description="" MasterKey="7" />
+    <Parameter ProceedingCode="61" Title="انبار" IsDetail="false" Type="انبارها" IsNullable="false" IsReadOnly="false" HasAccount="false" Size="200" Arrange="101" Formula="" FormulaCode="101" EffectiveCode="0" Description="" MasterKey="2" />
+    <Parameter ProceedingCode="61" Title="کد فرعی" IsDetail="false" Type="متن" IsNullable="true" IsReadOnly="false" HasAccount="false" Size="200" Arrange="102" Formula="" FormulaCode="102" EffectiveCode="0" Description="" MasterKey="6" />
+    <Parameter ProceedingCode="61" Title="توضیحات" IsDetail="false" Type="متن" IsNullable="true" IsReadOnly="false" HasAccount="false" Size="200" Arrange="103" Formula="" FormulaCode="103" EffectiveCode="0" Description="" MasterKey="7" />
+    <Parameter ProceedingCode="62" Title="انبار" IsDetail="false" Type="انبارها" IsNullable="false" IsReadOnly="false" HasAccount="false" Size="200" Arrange="101" Formula="" FormulaCode="101" EffectiveCode="0" Description="" MasterKey="2" />
+    <Parameter ProceedingCode="62" Title="کد فرعی" IsDetail="false" Type="متن" IsNullable="true" IsReadOnly="false" HasAccount="false" Size="200" Arrange="102" Formula="" FormulaCode="102" EffectiveCode="0" Description="" MasterKey="6" />
+    <Parameter ProceedingCode="62" Title="توضیحات" IsDetail="false" Type="متن" IsNullable="true" IsReadOnly="false" HasAccount="false" Size="200" Arrange="103" Formula="" FormulaCode="103" EffectiveCode="0" Description="" MasterKey="7" />
+    <Parameter ProceedingCode="63" Title="انبار" IsDetail="false" Type="انبارها" IsNullable="false" IsReadOnly="false" HasAccount="false" Size="200" Arrange="101" Formula="" FormulaCode="101" EffectiveCode="0" Description="" MasterKey="2" />
+    <Parameter ProceedingCode="63" Title="کد فرعی" IsDetail="false" Type="متن" IsNullable="true" IsReadOnly="false" HasAccount="false" Size="200" Arrange="102" Formula="" FormulaCode="102" EffectiveCode="0" Description="" MasterKey="6" />
+    <Parameter ProceedingCode="63" Title="توضیحات" IsDetail="false" Type="متن" IsNullable="true" IsReadOnly="false" HasAccount="false" Size="200" Arrange="103" Formula="" FormulaCode="103" EffectiveCode="0" Description="" MasterKey="7" />
+  </ParameterRoot>
+  <BaseRelationshipRoot />
+</Template>

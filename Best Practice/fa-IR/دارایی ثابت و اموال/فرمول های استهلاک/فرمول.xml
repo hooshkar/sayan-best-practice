@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--This file created by Sayan software.-->
+<!--Web: www.sayanpardaz.com-->
+<Coding>
+  <Formula Code="11" SubCode="11" Title="استاندارد دارایی" Formula="" IsEnable="true" IsGroup="true" Description="" />
+  <Formula Code="111001" ParentCode="11" SubCode="1001" Title="مستقیم" Formula="DECLARE @FullLife FLOAT;&#xD;&#xA;SET @FullLife = CASE WHEN([FullLife] IS NULL)THEN([GroupFullLife])ELSE([FullLife])END&#xD;&#xA;&#xD;&#xA;SETVALUE (([PriCost]-[EffetePrice])/@FullLife ) * ([CountDay]/365)" IsEnable="true" IsGroup="false" Description="" />
+  <Formula Code="111002" ParentCode="11" SubCode="1002" Title="نزولی" Formula="DECLARE @FullLife FLOAT;&#xD;&#xA;SET @FullLife = CASE WHEN([FullLife] IS NULL)THEN([GroupFullLife])ELSE([FullLife])END&#xD;&#xA;&#xD;&#xA;SETVALUE (([RemainedPrice])*@FullLife) * ([CountDay]/365)" IsEnable="true" IsGroup="false" Description="" />
+</Coding>

@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--This file created by Sayan software.-->
+<!--Web: www.sayanpardaz.com-->
+<SubsidiaryRelationship>
+  <Item LayerCode="11" GroupCode="1" LedgerCode="3" SubsidiaryCode="101" IsImperative="true" />
+  <Item LayerCode="11" GroupCode="1" LedgerCode="3" SubsidiaryCode="102" IsImperative="true" />
+  <Item LayerCode="11" GroupCode="1" LedgerCode="3" SubsidiaryCode="103" IsImperative="true" />
+  <Item LayerCode="11" GroupCode="1" LedgerCode="4" SubsidiaryCode="108" IsImperative="true" />
+  <Item LayerCode="11" GroupCode="1" LedgerCode="4" SubsidiaryCode="109" IsImperative="true" />
+  <Item LayerCode="11" GroupCode="1" LedgerCode="4" SubsidiaryCode="110" IsImperative="true" />
+  <Item LayerCode="11" GroupCode="1" LedgerCode="4" SubsidiaryCode="111" IsImperative="true" />
+  <Item LayerCode="11" GroupCode="1" LedgerCode="8" SubsidiaryCode="108" IsImperative="true" />
+  <Item LayerCode="11" GroupCode="2" LedgerCode="7" SubsidiaryCode="104" IsImperative="true" />
+  <Item LayerCode="11" GroupCode="2" LedgerCode="7" SubsidiaryCode="105" IsImperative="true" />
+  <Item LayerCode="11" GroupCode="3" LedgerCode="1" SubsidiaryCode="101" IsImperative="true" />
+  <Item LayerCode="11" GroupCode="3" LedgerCode="1" SubsidiaryCode="102" IsImperative="true" />
+  <Item LayerCode="11" GroupCode="3" LedgerCode="2" SubsidiaryCode="103" IsImperative="true" />
+  <Item LayerCode="11" GroupCode="3" LedgerCode="2" SubsidiaryCode="114" IsImperative="true" />
+  <Item LayerCode="11" GroupCode="3" LedgerCode="4" SubsidiaryCode="102" IsImperative="true" />
+  <Item LayerCode="11" GroupCode="3" LedgerCode="4" SubsidiaryCode="103" IsImperative="true" />
+  <Item LayerCode="11" GroupCode="4" LedgerCode="1" SubsidiaryCode="101" IsImperative="true" />
+  <Item LayerCode="11" GroupCode="4" LedgerCode="1" SubsidiaryCode="102" IsImperative="true" />
+  <Item LayerCode="11" GroupCode="4" LedgerCode="1" SubsidiaryCode="104" IsImperative="true" />
+  <Item LayerCode="11" GroupCode="9" LedgerCode="1" SubsidiaryCode="106" IsImperative="true" />
+  <Item LayerCode="11" GroupCode="9" LedgerCode="1" SubsidiaryCode="107" IsImperative="true" />
+  <Item LayerCode="11" GroupCode="9" LedgerCode="1" SubsidiaryCode="111" IsImperative="true" />
+  <Item LayerCode="11" GroupCode="9" LedgerCode="1" SubsidiaryCode="112" IsImperative="true" />
+  <Item LayerCode="11" GroupCode="9" LedgerCode="1" SubsidiaryCode="114" IsImperative="true" />
+  <Item LayerCode="11" GroupCode="9" LedgerCode="1" SubsidiaryCode="116" IsImperative="true" />
+  <Item LayerCode="11" GroupCode="9" LedgerCode="2" SubsidiaryCode="101" IsImperative="true" />
+  <Item LayerCode="11" GroupCode="9" LedgerCode="2" SubsidiaryCode="102" IsImperative="true" />
+  <Item LayerCode="12" GroupCode="1" LedgerCode="1" SubsidiaryCode="101" IsImperative="true" />
+  <Item LayerCode="12" GroupCode="1" LedgerCode="3" SubsidiaryCode="102" IsImperative="true" />
+  <Item LayerCode="12" GroupCode="1" LedgerCode="4" SubsidiaryCode="108" IsImperative="true" />
+  <Item LayerCode="12" GroupCode="1" LedgerCode="5" SubsidiaryCode="102" IsImperative="true" />
+  <Item LayerCode="12" GroupCode="2" LedgerCode="7" SubsidiaryCode="105" IsImperative="true" />
+  <Item LayerCode="13" GroupCode="1" LedgerCode="1" SubsidiaryCode="102" IsImperative="true" />
+  <Item LayerCode="13" GroupCode="1" LedgerCode="3" SubsidiaryCode="103" IsImperative="true" />
+  <Item LayerCode="13" GroupCode="1" LedgerCode="4" SubsidiaryCode="109" IsImperative="true" />
+  <Item LayerCode="13" GroupCode="3" LedgerCode="1" SubsidiaryCode="102" IsImperative="true" />
+  <Item LayerCode="13" GroupCode="3" LedgerCode="2" SubsidiaryCode="103" IsImperative="true" />
+  <Item LayerCode="13" GroupCode="3" LedgerCode="3" SubsidiaryCode="102" IsImperative="true" />
+  <Item LayerCode="13" GroupCode="4" LedgerCode="1" SubsidiaryCode="101" IsImperative="true" />
+  <Item LayerCode="13" GroupCode="4" LedgerCode="1" SubsidiaryCode="102" IsImperative="true" />
+  <Item LayerCode="51" GroupCode="1" LedgerCode="5" SubsidiaryCode="101" IsImperative="true" />
+  <Item LayerCode="51" GroupCode="1" LedgerCode="5" SubsidiaryCode="102" IsImperative="true" />
+  <Item LayerCode="51" GroupCode="1" LedgerCode="5" SubsidiaryCode="103" IsImperative="true" />
+  <Item LayerCode="51" GroupCode="3" LedgerCode="3" SubsidiaryCode="101" IsImperative="true" />
+  <Item LayerCode="51" GroupCode="3" LedgerCode="3" SubsidiaryCode="102" IsImperative="true" />
+  <Item LayerCode="51" GroupCode="5" LedgerCode="1" SubsidiaryCode="101" IsImperative="true" />
+  <Item LayerCode="52" GroupCode="1" LedgerCode="4" SubsidiaryCode="101" IsImperative="true" />
+  <Item LayerCode="52" GroupCode="1" LedgerCode="4" SubsidiaryCode="102" IsImperative="true" />
+  <Item LayerCode="52" GroupCode="1" LedgerCode="4" SubsidiaryCode="103" IsImperative="true" />
+  <Item LayerCode="52" GroupCode="1" LedgerCode="4" SubsidiaryCode="104" IsImperative="true" />
+  <Item LayerCode="52" GroupCode="1" LedgerCode="4" SubsidiaryCode="105" IsImperative="true" />
+  <Item LayerCode="52" GroupCode="1" LedgerCode="4" SubsidiaryCode="106" IsImperative="true" />
+  <Item LayerCode="52" GroupCode="1" LedgerCode="8" SubsidiaryCode="105" IsImperative="true" />
+  <Item LayerCode="52" GroupCode="3" LedgerCode="2" SubsidiaryCode="101" IsImperative="true" />
+  <Item LayerCode="52" GroupCode="3" LedgerCode="2" SubsidiaryCode="104" IsImperative="true" />
+  <Item LayerCode="52" GroupCode="3" LedgerCode="2" SubsidiaryCode="105" IsImperative="true" />
+  <Item LayerCode="52" GroupCode="3" LedgerCode="2" SubsidiaryCode="106" IsImperative="true" />
+  <Item LayerCode="52" GroupCode="3" LedgerCode="2" SubsidiaryCode="112" IsImperative="true" />
+  <Item LayerCode="52" GroupCode="3" LedgerCode="2" SubsidiaryCode="116" IsImperative="true" />
+  <Item LayerCode="52" GroupCode="4" LedgerCode="3" SubsidiaryCode="101" IsImperative="true" />
+  <Item LayerCode="52" GroupCode="9" LedgerCode="1" SubsidiaryCode="103" IsImperative="true" />
+  <Item LayerCode="53" GroupCode="1" LedgerCode="1" SubsidiaryCode="104" IsImperative="true" />
+</SubsidiaryRelationship>

@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--This file created by Sayan software.-->
+<!--Web: www.sayanpardaz.com-->
+<Template>
+  <ProceedingRoot>
+    <Proceeding Code="11" Title="پیش فاکتور" EffectiveCode="0" CanBaseLess="true" Formula="" HasAccount="false" HasPrice="true" SystemCode="2" IsReserve="false" IsEnable="true" Description="" />
+    <Proceeding Code="12" Title="فاکتور فروش" EffectiveCode="0" CanBaseLess="true" Formula="" HasAccount="true" HasPrice="true" SystemCode="2" IsReserve="false" Settlement="9" IsEnable="true" Description="" />
+    <Proceeding Code="13" Title="مرجوعی فروش" EffectiveCode="0" CanBaseLess="false" Formula="" HasAccount="true" HasPrice="true" SystemCode="2" IsReserve="false" Settlement="9" IsEnable="true" Description="" />
+    <Proceeding Code="14" Title="فاکتور خرید" EffectiveCode="0" CanBaseLess="true" Formula="" HasAccount="true" HasPrice="true" SystemCode="2" IsReserve="false" Settlement="9" IsEnable="true" Description="" />
+    <Proceeding Code="15" Title="مرجوعی خرید" EffectiveCode="0" CanBaseLess="false" Formula="" HasAccount="true" HasPrice="true" SystemCode="2" IsReserve="false" Settlement="9" IsEnable="true" Description="" />
+  </ProceedingRoot>
+  <ParameterRoot>
+    <Parameter ProceedingCode="11" Title="تخفیف" IsDetail="false" Type="پول" IsNullable="true" IsReadOnly="false" HasAccount="false" Size="100" Arrange="1" Formula="" FormulaCode="1" EffectiveCode="-1" Description="" />
+    <Parameter ProceedingCode="11" Title="ارزش افزوده" IsDetail="false" Type="پول" IsNullable="true" IsReadOnly="false" HasAccount="false" Size="100" Arrange="2" Formula="" FormulaCode="2" EffectiveCode="1" Description="" />
+    <Parameter ProceedingCode="12" Title="تخفیف" IsDetail="false" Type="پول" IsNullable="true" IsReadOnly="false" HasAccount="true" Size="100" Arrange="1" Formula="" FormulaCode="1" EffectiveCode="-1" Description="" />
+    <Parameter ProceedingCode="12" Title="ارزش افزوده" IsDetail="false" Type="پول" IsNullable="true" IsReadOnly="false" HasAccount="true" Size="100" Arrange="2" Formula="" FormulaCode="2" EffectiveCode="1" Description="" />
+    <Parameter ProceedingCode="13" Title="تخفیف" IsDetail="false" Type="پول" IsNullable="true" IsReadOnly="false" HasAccount="true" Size="100" Arrange="1" Formula="" FormulaCode="1" EffectiveCode="-1" Description="" />
+    <Parameter ProceedingCode="13" Title="ارزش افزوده" IsDetail="false" Type="پول" IsNullable="true" IsReadOnly="false" HasAccount="true" Size="100" Arrange="2" Formula="" FormulaCode="2" EffectiveCode="1" Description="" />
+    <Parameter ProceedingCode="14" Title="تخفیف" IsDetail="false" Type="پول" IsNullable="true" IsReadOnly="false" HasAccount="true" Size="100" Arrange="1" Formula="" FormulaCode="1" EffectiveCode="-1" Description="" />
+    <Parameter ProceedingCode="14" Title="ارزش افزوده" IsDetail="false" Type="پول" IsNullable="true" IsReadOnly="false" HasAccount="true" Size="100" Arrange="2" Formula="" FormulaCode="2" EffectiveCode="1" Description="" />
+    <Parameter ProceedingCode="15" Title="تخفیف" IsDetail="false" Type="پول" IsNullable="true" IsReadOnly="false" HasAccount="true" Size="100" Arrange="1" Formula="" FormulaCode="1" EffectiveCode="-1" Description="" />
+    <Parameter ProceedingCode="15" Title="ارزش افزوده" IsDetail="false" Type="پول" IsNullable="true" IsReadOnly="false" HasAccount="true" Size="100" Arrange="2" Formula="" FormulaCode="2" EffectiveCode="1" Description="" />
+    <Parameter ProceedingCode="15" Title="شخص" IsDetail="false" Type="اشخاص" IsNullable="false" IsReadOnly="false" HasAccount="false" Size="200" Arrange="101" FormulaCode="101" EffectiveCode="0" MasterKey="1" />
+    <Parameter ProceedingCode="14" Title="شخص" IsDetail="false" Type="اشخاص" IsNullable="false" IsReadOnly="false" HasAccount="false" Size="200" Arrange="101" Formula="" FormulaCode="101" EffectiveCode="0" Description="" MasterKey="1" />
+    <Parameter ProceedingCode="13" Title="شخص" IsDetail="false" Type="اشخاص" IsNullable="false" IsReadOnly="false" HasAccount="false" Size="200" Arrange="101" Formula="" FormulaCode="101" EffectiveCode="0" Description="" MasterKey="1" />
+    <Parameter ProceedingCode="12" Title="شخص" IsDetail="false" Type="اشخاص" IsNullable="false" IsReadOnly="false" HasAccount="false" Size="200" Arrange="101" Formula="" FormulaCode="101" EffectiveCode="0" Description="" MasterKey="1" />
+    <Parameter ProceedingCode="11" Title="شخص" IsDetail="false" Type="اشخاص" IsNullable="false" IsReadOnly="false" HasAccount="false" Size="200" Arrange="101" Formula="" FormulaCode="101" EffectiveCode="0" Description="" MasterKey="1" />
+    <Parameter ProceedingCode="15" Title="کد فرعی" IsDetail="false" Type="متن" IsNullable="true" IsReadOnly="false" HasAccount="false" Size="200" Arrange="102" Formula="" FormulaCode="102" EffectiveCode="0" Description="" MasterKey="6" />
+    <Parameter ProceedingCode="14" Title="کد فرعی" IsDetail="false" Type="متن" IsNullable="true" IsReadOnly="false" HasAccount="false" Size="200" Arrange="102" Formula="" FormulaCode="102" EffectiveCode="0" Description="" MasterKey="6" />
+    <Parameter ProceedingCode="13" Title="کد فرعی" IsDetail="false" Type="متن" IsNullable="true" IsReadOnly="false" HasAccount="false" Size="200" Arrange="102" Formula="" FormulaCode="102" EffectiveCode="0" Description="" MasterKey="6" />
+    <Parameter ProceedingCode="12" Title="کد فرعی" IsDetail="false" Type="متن" IsNullable="true" IsReadOnly="false" HasAccount="false" Size="200" Arrange="102" Formula="" FormulaCode="102" EffectiveCode="0" Description="" MasterKey="6" />
+    <Parameter ProceedingCode="11" Title="کد فرعی" IsDetail="false" Type="متن" IsNullable="true" IsReadOnly="false" HasAccount="false" Size="200" Arrange="102" Formula="" FormulaCode="102" EffectiveCode="0" Description="" MasterKey="6" />
+    <Parameter ProceedingCode="15" Title="توضیحات" IsDetail="false" Type="متن" IsNullable="true" IsReadOnly="false" HasAccount="false" Size="200" Arrange="103" Formula="" FormulaCode="103" EffectiveCode="0" Description="" MasterKey="7" />
+    <Parameter ProceedingCode="14" Title="توضیحات" IsDetail="false" Type="متن" IsNullable="true" IsReadOnly="false" HasAccount="false" Size="200" Arrange="103" Formula="" FormulaCode="103" EffectiveCode="0" Description="" MasterKey="7" />
+    <Parameter ProceedingCode="13" Title="توضیحات" IsDetail="false" Type="متن" IsNullable="true" IsReadOnly="false" HasAccount="false" Size="200" Arrange="103" Formula="" FormulaCode="103" EffectiveCode="0" Description="" MasterKey="7" />
+    <Parameter ProceedingCode="12" Title="توضیحات" IsDetail="false" Type="متن" IsNullable="true" IsReadOnly="false" HasAccount="false" Size="200" Arrange="103" Formula="" FormulaCode="103" EffectiveCode="0" Description="" MasterKey="7" />
+    <Parameter ProceedingCode="11" Title="توضیحات" IsDetail="false" Type="متن" IsNullable="true" IsReadOnly="false" HasAccount="false" Size="200" Arrange="103" Formula="" FormulaCode="103" EffectiveCode="0" Description="" MasterKey="7" />
+  </ParameterRoot>
+  <BaseRelationshipRoot>
+    <Relationship ProceedingCode="13" BaseCode="12" />
+    <Relationship ProceedingCode="15" BaseCode="14" />
+  </BaseRelationshipRoot>
+</Template>

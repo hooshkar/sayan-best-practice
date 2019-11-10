@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--This file created by Sayan software.-->
+<!--Web: www.sayanpardaz.com-->
+<Template>
+  <ContractRoot>
+    <Contract Code="11" Title="قراردادی" IsEnable="true" Description="" />
+  </ContractRoot>
+  <ParameterRoot>
+    <Parameter ContractCode="11" Title="دستمزد روزانه" Type="پول" ValueSetCode="1" Arrange="11" ArrangeInPrint="61" EffectiveCode="0" ShowOnPrint="false" ShowOnPeacockeryPrint="true" FormulaCode="11" Formula="" IsEnable="true" Description="" HasAccount="false" />
+    <Parameter ContractCode="11" Title="کارکرد ماه" Type="مدت زمان" ValueSetCode="2" Arrange="12" ArrangeInPrint="40" EffectiveCode="0" ShowOnPrint="true" ShowOnPeacockeryPrint="true" FormulaCode="12" Formula="" IsEnable="true" Description="" HasAccount="false" />
+    <Parameter ContractCode="11" Title="حقوق پایه" Type="پول" ValueSetCode="3" Arrange="13" ArrangeInPrint="8" EffectiveCode="1" ShowOnPrint="true" ShowOnPeacockeryPrint="true" FormulaCode="13" Formula="SETVALUE [CP11] * TODAYS[[CP12],[CP1]]" IsEnable="true" Description="" HasAccount="true" />
+    <Parameter ContractCode="11" Title="حق مسکن" Type="پول" ValueSetCode="1" Arrange="15" ArrangeInPrint="7" EffectiveCode="1" ShowOnPrint="true" ShowOnPeacockeryPrint="true" FormulaCode="15" Formula="SETVALUE ([THIS] * TODAYS[[CP12],[CP1]]) / [DAYS]" IsEnable="true" Description="" HasAccount="true" />
+    <Parameter ContractCode="11" Title="بن کارگری" Type="پول" ValueSetCode="1" Arrange="17" ArrangeInPrint="6" EffectiveCode="1" ShowOnPrint="true" ShowOnPeacockeryPrint="true" FormulaCode="17" Formula="SETVALUE ([THIS] * TODAYS[[CP12],[CP1]]) / [DAYS]" IsEnable="true" Description="" HasAccount="true" />
+    <Parameter ContractCode="11" Title="حق مسئولیت" Type="پول" ValueSetCode="1" Arrange="19" ArrangeInPrint="4" EffectiveCode="1" ShowOnPrint="true" ShowOnPeacockeryPrint="true" FormulaCode="19" Formula="" IsEnable="true" Description="" HasAccount="true" />
+    <Parameter ContractCode="11" Title="حق اولاد" Type="پول" ValueSetCode="3" Arrange="18" ArrangeInPrint="5" EffectiveCode="1" ShowOnPrint="true" ShowOnPeacockeryPrint="true" FormulaCode="18" Formula="SETVALUE CASE WHEN([CP6] &gt; 2)THEN(2)ELSE([CP6])END * [CP7]" IsEnable="true" Description="" HasAccount="true" />
+    <Parameter ContractCode="11" Title="حق جذب" Type="پول" ValueSetCode="1" Arrange="20" ArrangeInPrint="2" EffectiveCode="1" ShowOnPrint="true" ShowOnPeacockeryPrint="true" FormulaCode="20" Formula="" IsEnable="true" Description="" HasAccount="true" />
+    <Parameter ContractCode="11" Title="حق نهار" Type="پول" ValueSetCode="1" Arrange="21" ArrangeInPrint="13" EffectiveCode="1" ShowOnPrint="true" ShowOnPeacockeryPrint="true" FormulaCode="21" Formula="" IsEnable="true" Description="" HasAccount="true" />
+    <Parameter ContractCode="11" Title="حق شغل" Type="پول" ValueSetCode="1" Arrange="25" ArrangeInPrint="3" EffectiveCode="1" ShowOnPrint="true" ShowOnPeacockeryPrint="true" FormulaCode="25" Formula="" IsEnable="true" Description="" HasAccount="true" />
+    <Parameter ContractCode="11" Title="حق ایاب ذهاب" Type="پول" ValueSetCode="1" Arrange="26" ArrangeInPrint="12" EffectiveCode="1" ShowOnPrint="true" ShowOnPeacockeryPrint="true" FormulaCode="26" Formula="" IsEnable="true" Description="" HasAccount="true" />
+    <Parameter ContractCode="11" Title="پاداش بهره وری" Type="پول" ValueSetCode="2" Arrange="36" ArrangeInPrint="14" EffectiveCode="1" ShowOnPrint="true" ShowOnPeacockeryPrint="true" FormulaCode="36" Formula="" IsEnable="true" Description="" HasAccount="true" />
+    <Parameter ContractCode="11" Title="حق ماموریت" Type="پول" ValueSetCode="3" Arrange="40" ArrangeInPrint="15" EffectiveCode="1" ShowOnPrint="true" ShowOnPeacockeryPrint="true" FormulaCode="40" Formula="SETVALUE [CP11] * TODAYS[[CP39],[CP1]]" IsEnable="true" Description="" HasAccount="true" />
+    <Parameter ContractCode="11" Title="مشمول اضافه کار" Type="پول" ValueSetCode="3" Arrange="41" ArrangeInPrint="90" EffectiveCode="0" ShowOnPrint="true" ShowOnPeacockeryPrint="false" FormulaCode="41" Formula="SETVALUE SPECIFICSUM[13,1]" IsEnable="true" Description="" HasAccount="false" />
+    <Parameter ContractCode="11" Title="مدت اضافه کار" Type="مدت زمان" ValueSetCode="2" Arrange="42" ArrangeInPrint="30" EffectiveCode="0" ShowOnPrint="true" ShowOnPeacockeryPrint="true" FormulaCode="42" Formula="" IsEnable="true" Description="" HasAccount="false" />
+    <Parameter ContractCode="11" Title="اضافه کار" Type="پول" ValueSetCode="3" Arrange="43" ArrangeInPrint="16" EffectiveCode="1" ShowOnPrint="true" ShowOnPeacockeryPrint="true" FormulaCode="43" Formula="SETVALUE ([CP41]/([CP1] * 30)) * 1.4 * TOHOURS[[CP42],[CP1]]" IsEnable="true" Description="" HasAccount="true" />
+    <Parameter ContractCode="11" Title="خرید مرخصی" Type="پول" ValueSetCode="3" Arrange="50" ArrangeInPrint="9" EffectiveCode="1" ShowOnPrint="true" ShowOnPeacockeryPrint="true" FormulaCode="50" Formula="" IsEnable="true" Description="" HasAccount="true" />
+    <Parameter ContractCode="11" Title="ذخیره بازخرید سنوات" Type="پول" ValueSetCode="3" Arrange="51" ArrangeInPrint="11" EffectiveCode="0" ShowOnPrint="false" ShowOnPeacockeryPrint="false" FormulaCode="51" Formula="SETVALUE (([CP11] * 30) / 365) * TODAYS[[CP12],[CP1]]" IsEnable="true" Description="" HasAccount="true" />
+    <Parameter ContractCode="11" Title="ذخیره عیدی سالانه" Type="پول" ValueSetCode="3" Arrange="52" ArrangeInPrint="10" EffectiveCode="0" ShowOnPrint="false" ShowOnPeacockeryPrint="false" FormulaCode="52" Formula="SETVALUE (([CP11] * 30) / 365) * 2 * TODAYS[[CP12],[CP1]]" IsEnable="true" Description="" HasAccount="true" />
+    <Parameter ContractCode="11" Title="غیبت" Type="مدت زمان" ValueSetCode="2" Arrange="60" ArrangeInPrint="44" EffectiveCode="0" ShowOnPrint="true" ShowOnPeacockeryPrint="true" FormulaCode="60" Formula="" IsEnable="true" Description="" HasAccount="false" />
+    <Parameter ContractCode="11" Title="کسرکار" Type="پول" ValueSetCode="3" Arrange="61" ArrangeInPrint="3" EffectiveCode="-1" ShowOnPrint="true" ShowOnPeacockeryPrint="true" FormulaCode="61" Formula="SETVALUE ([CP59]/([CP1] * 30)) * 2 * TOHOURS[[CP60],[CP1]]" IsEnable="true" Description="" HasAccount="true" />
+    <Parameter ContractCode="11" Title="بیمه" Type="پول" ValueSetCode="3" Arrange="63" ArrangeInPrint="7" EffectiveCode="-1" ShowOnPrint="true" ShowOnPeacockeryPrint="true" FormulaCode="63" Formula="SETVALUE [CP62] * 0.07" IsEnable="true" Description="" HasAccount="true" />
+    <Parameter ContractCode="11" Title="مالیات" Type="پول" ValueSetCode="3" Arrange="75" ArrangeInPrint="8" EffectiveCode="-1" ShowOnPrint="true" ShowOnPeacockeryPrint="true" FormulaCode="75" Formula="SETVALUE TAX[11,[CP74]]" IsEnable="true" Description="" HasAccount="true" />
+    <Parameter ContractCode="11" Title="قسط وام" Type="پول" ValueSetCode="3" Arrange="69" ArrangeInPrint="2" EffectiveCode="-1" ShowOnPrint="true" ShowOnPeacockeryPrint="true" FormulaCode="69" Formula="SETVALUE LOAN[0]" IsEnable="true" Description="" HasAccount="true" />
+    <Parameter ContractCode="11" Title="مساعده" Type="پول" ValueSetCode="3" Arrange="80" ArrangeInPrint="4" EffectiveCode="-1" ShowOnPrint="true" ShowOnPeacockeryPrint="true" FormulaCode="80" Formula="SETVALUE ADVANCE[]" IsEnable="true" Description="" HasAccount="true" />
+    <Parameter ContractCode="11" Title="مانده وام" Type="پول" ValueSetCode="3" Arrange="70" ArrangeInPrint="70" EffectiveCode="0" ShowOnPrint="true" ShowOnPeacockeryPrint="true" FormulaCode="70" Formula="SETVALUE LOANREMAINED[0]" IsEnable="true" Description="" HasAccount="false" />
+    <Parameter ContractCode="11" Title="بیمه سهم کارفرما" Type="پول" ValueSetCode="3" Arrange="64" ArrangeInPrint="64" EffectiveCode="0" ShowOnPrint="true" ShowOnPeacockeryPrint="true" FormulaCode="64" Formula="SETVALUE [CP62] * 0.2" IsEnable="true" Description="" HasAccount="true" />
+    <Parameter ContractCode="11" Title="بیمه بیکاری" Type="پول" ValueSetCode="3" Arrange="65" ArrangeInPrint="65" EffectiveCode="0" ShowOnPrint="true" ShowOnPeacockeryPrint="true" FormulaCode="65" Formula="SETVALUE [CP62] * 0.03" IsEnable="true" Description="" HasAccount="true" />
+    <Parameter ContractCode="11" Title="گرد شده" Type="پول" ValueSetCode="3" Arrange="90" ArrangeInPrint="1" EffectiveCode="-1" ShowOnPrint="true" ShowOnPeacockeryPrint="true" FormulaCode="90" Formula="SETVALUE ROUNDING[3]" IsEnable="true" Description="" HasAccount="true" />
+    <Parameter ContractCode="11" Title="سختی کار" Type="پول" ValueSetCode="1" Arrange="24" ArrangeInPrint="1" EffectiveCode="1" ShowOnPrint="true" ShowOnPeacockeryPrint="true" FormulaCode="24" Formula="" IsEnable="true" Description="" HasAccount="true" />
+    <Parameter ContractCode="11" Title="مرخصی" Type="مدت زمان" ValueSetCode="2" Arrange="48" ArrangeInPrint="48" EffectiveCode="0" ShowOnPrint="true" ShowOnPeacockeryPrint="true" FormulaCode="48" Formula="" IsEnable="true" Description="" HasAccount="false" />
+    <Parameter ContractCode="11" Title="مانده مرخصی" Type="مدت زمان" ValueSetCode="3" Arrange="49" ArrangeInPrint="91" EffectiveCode="0" ShowOnPrint="false" ShowOnPeacockeryPrint="true" FormulaCode="49" Formula="" IsEnable="true" Description="" HasAccount="false" />
+    <Parameter ContractCode="11" Title="مشمول بیمه" Type="پول" ValueSetCode="3" Arrange="62" ArrangeInPrint="62" EffectiveCode="0" ShowOnPrint="true" ShowOnPeacockeryPrint="false" FormulaCode="62" Formula="SETVALUE SPECIFICSUM[12,1]" IsEnable="true" Description="" HasAccount="false" />
+    <Parameter ContractCode="11" Title="مشمول مالیات" Type="پول" ValueSetCode="3" Arrange="74" ArrangeInPrint="74" EffectiveCode="0" ShowOnPrint="true" ShowOnPeacockeryPrint="false" FormulaCode="74" Formula="SETVALUE SPECIFICSUM[11,1]" IsEnable="true" Description="" HasAccount="false" />
+    <Parameter ContractCode="11" Title="نام بانک" Type="متن کشویی" ValueSetCode="5" Arrange="3" ArrangeInPrint="3" EffectiveCode="0" ShowOnPrint="false" ShowOnPeacockeryPrint="true" FormulaCode="3" Formula="" IsEnable="true" Description="" HasAccount="false" />
+    <Parameter ContractCode="11" Title="شماره حساب" Type="متن" ValueSetCode="5" Arrange="4" ArrangeInPrint="4" EffectiveCode="0" ShowOnPrint="false" ShowOnPeacockeryPrint="true" FormulaCode="4" Formula="" IsEnable="true" Description="" HasAccount="false" />
+    <Parameter ContractCode="11" Title="وضعیت تاهل" Type="متن کشویی" ValueSetCode="5" Arrange="5" ArrangeInPrint="5" EffectiveCode="0" ShowOnPrint="false" ShowOnPeacockeryPrint="true" FormulaCode="5" Formula="" IsEnable="true" Description="" HasAccount="false" />
+    <Parameter ContractCode="11" Title="تعداد فرزند" Type="عدد" ValueSetCode="5" Arrange="6" ArrangeInPrint="6" EffectiveCode="0" ShowOnPrint="false" ShowOnPeacockeryPrint="true" FormulaCode="6" Formula="" IsEnable="true" Description="" HasAccount="false" />
+    <Parameter ContractCode="11" Title="تعداد ساعت روز" Type="عدد" ValueSetCode="4" Arrange="1" ArrangeInPrint="1" EffectiveCode="0" ShowOnPrint="false" ShowOnPeacockeryPrint="false" FormulaCode="1" Formula="" IsEnable="true" Description="" HasAccount="false" />
+    <Parameter ContractCode="11" Title="مدت ماموریت" Type="مدت زمان" ValueSetCode="2" Arrange="39" ArrangeInPrint="43" EffectiveCode="0" ShowOnPrint="true" ShowOnPeacockeryPrint="true" FormulaCode="39" Formula="" IsEnable="true" Description="" HasAccount="false" />
+    <Parameter ContractCode="11" Title="مشمول کسرکار" Type="پول" ValueSetCode="3" Arrange="59" ArrangeInPrint="92" EffectiveCode="0" ShowOnPrint="true" ShowOnPeacockeryPrint="false" FormulaCode="59" Formula="SETVALUE SPECIFICSUM[14,1]" IsEnable="true" Description="" HasAccount="false" />
+    <Parameter ContractCode="11" Title="حق اولاد هر فرزند" Type="پول" ValueSetCode="4" Arrange="7" ArrangeInPrint="7" EffectiveCode="0" ShowOnPrint="false" ShowOnPeacockeryPrint="false" FormulaCode="7" Formula="" IsEnable="true" Description="" HasAccount="false" />
+    <Parameter ContractCode="11" Title="عیدی سالانه" Type="پول" ValueSetCode="3" Arrange="54" ArrangeInPrint="11" EffectiveCode="1" ShowOnPrint="true" ShowOnPeacockeryPrint="true" FormulaCode="54" Formula="SETVALUE CASE WHEN([MONTH] = '12')THEN(SUM[52] - SUM[54] + [CP52])ELSE(0)END" IsEnable="true" Description="" HasAccount="true" />
+    <Parameter ContractCode="11" Title="بازخرید سنوات" Type="پول" ValueSetCode="3" Arrange="53" ArrangeInPrint="10" EffectiveCode="1" ShowOnPrint="true" ShowOnPeacockeryPrint="true" FormulaCode="53" Formula="SETVALUE CASE WHEN([MONTH] = '12')THEN(SUM[51] - SUM[53] + [CP51])ELSE(0)END" IsEnable="true" Description="" HasAccount="true" />
+  </ParameterRoot>
+  <SpecificRoot>
+    <Specific Code="11" Title="مشمول مالیات" />
+    <Specific Code="12" Title="مشمول بیمه" />
+    <Specific Code="13" Title="مشمول اضافه کار" />
+    <Specific Code="14" Title="مشمول کسرکار" />
+  </SpecificRoot>
+  <SpecificParameterRoot>
+    <SpecificParameter ContractCode="11" SpecificCode="11" ParameterFormulaCode="13" />
+    <SpecificParameter ContractCode="11" SpecificCode="12" ParameterFormulaCode="13" />
+    <SpecificParameter ContractCode="11" SpecificCode="13" ParameterFormulaCode="13" />
+    <SpecificParameter ContractCode="11" SpecificCode="14" ParameterFormulaCode="13" />
+    <SpecificParameter ContractCode="11" SpecificCode="11" ParameterFormulaCode="15" />
+    <SpecificParameter ContractCode="11" SpecificCode="12" ParameterFormulaCode="15" />
+    <SpecificParameter ContractCode="11" SpecificCode="13" ParameterFormulaCode="15" />
+    <SpecificParameter ContractCode="11" SpecificCode="14" ParameterFormulaCode="15" />
+    <SpecificParameter ContractCode="11" SpecificCode="11" ParameterFormulaCode="17" />
+    <SpecificParameter ContractCode="11" SpecificCode="12" ParameterFormulaCode="17" />
+    <SpecificParameter ContractCode="11" SpecificCode="13" ParameterFormulaCode="17" />
+    <SpecificParameter ContractCode="11" SpecificCode="14" ParameterFormulaCode="17" />
+    <SpecificParameter ContractCode="11" SpecificCode="11" ParameterFormulaCode="19" />
+    <SpecificParameter ContractCode="11" SpecificCode="12" ParameterFormulaCode="19" />
+    <SpecificParameter ContractCode="11" SpecificCode="13" ParameterFormulaCode="19" />
+    <SpecificParameter ContractCode="11" SpecificCode="14" ParameterFormulaCode="19" />
+    <SpecificParameter ContractCode="11" SpecificCode="11" ParameterFormulaCode="18" />
+    <SpecificParameter ContractCode="11" SpecificCode="13" ParameterFormulaCode="18" />
+    <SpecificParameter ContractCode="11" SpecificCode="14" ParameterFormulaCode="18" />
+    <SpecificParameter ContractCode="11" SpecificCode="11" ParameterFormulaCode="20" />
+    <SpecificParameter ContractCode="11" SpecificCode="12" ParameterFormulaCode="20" />
+    <SpecificParameter ContractCode="11" SpecificCode="13" ParameterFormulaCode="20" />
+    <SpecificParameter ContractCode="11" SpecificCode="14" ParameterFormulaCode="20" />
+    <SpecificParameter ContractCode="11" SpecificCode="11" ParameterFormulaCode="21" />
+    <SpecificParameter ContractCode="11" SpecificCode="12" ParameterFormulaCode="21" />
+    <SpecificParameter ContractCode="11" SpecificCode="11" ParameterFormulaCode="25" />
+    <SpecificParameter ContractCode="11" SpecificCode="12" ParameterFormulaCode="25" />
+    <SpecificParameter ContractCode="11" SpecificCode="13" ParameterFormulaCode="25" />
+    <SpecificParameter ContractCode="11" SpecificCode="14" ParameterFormulaCode="25" />
+    <SpecificParameter ContractCode="11" SpecificCode="11" ParameterFormulaCode="26" />
+    <SpecificParameter ContractCode="11" SpecificCode="12" ParameterFormulaCode="26" />
+    <SpecificParameter ContractCode="11" SpecificCode="11" ParameterFormulaCode="36" />
+    <SpecificParameter ContractCode="11" SpecificCode="11" ParameterFormulaCode="43" />
+    <SpecificParameter ContractCode="11" SpecificCode="12" ParameterFormulaCode="43" />
+    <SpecificParameter ContractCode="11" SpecificCode="11" ParameterFormulaCode="52" />
+    <SpecificParameter ContractCode="11" SpecificCode="11" ParameterFormulaCode="24" />
+    <SpecificParameter ContractCode="11" SpecificCode="12" ParameterFormulaCode="24" />
+    <SpecificParameter ContractCode="11" SpecificCode="11" ParameterFormulaCode="54" />
+  </SpecificParameterRoot>
+</Template>

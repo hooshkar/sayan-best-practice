@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--This file created by Sayan software.-->
+<!--Web: www.sayanpardaz.com-->
+<Template>
+  <FactorRoot>
+    <Factor Code="11" Title="تحصیل" PriCostEfficiency="1" DeprStackedEfficiency="0" Type="0" HasAccount="true" HasPrice="true" Formula="" IsEnable="true" Description="" />
+    <Factor Code="12" Title="استهلاک" PriCostEfficiency="0" DeprStackedEfficiency="1" Type="2" HasAccount="true" HasPrice="true" Formula="[PRCASTGROUP]" Percent="30" IsEnable="true" Description="" />
+    <Factor Code="13" Title="بکارگیری" PriCostEfficiency="0" DeprStackedEfficiency="0" Type="1" HasAccount="false" HasPrice="false" Formula="" IsEnable="true" Description="" />
+    <Factor Code="14" Title="افزایش قیمت دارایی" PriCostEfficiency="1" DeprStackedEfficiency="0" Type="3" HasAccount="true" HasPrice="true" Formula="" IsEnable="true" Description="" />
+    <Factor Code="15" Title="کاهش قیمت دارایی" PriCostEfficiency="-1" DeprStackedEfficiency="0" Type="3" HasAccount="true" HasPrice="true" Formula="" IsEnable="true" Description="" />
+    <Factor Code="16" Title="تغییر تحویل دار" PriCostEfficiency="0" DeprStackedEfficiency="0" Type="3" HasAccount="false" HasPrice="false" Formula="" IsEnable="true" Description="" />
+    <Factor Code="17" Title="تغییر مرکز هزینه" PriCostEfficiency="0" DeprStackedEfficiency="0" Type="3" HasAccount="false" HasPrice="false" Formula="" IsEnable="true" Description="" />
+    <Factor Code="18" Title="نقل و انتقال" PriCostEfficiency="0" DeprStackedEfficiency="0" Type="3" HasAccount="true" HasPrice="true" Formula="" IsEnable="true" Description="" />
+    <Factor Code="19" Title="خروج موقت" PriCostEfficiency="0" DeprStackedEfficiency="0" Type="4" HasAccount="false" HasPrice="false" Formula="" IsEnable="true" Description="" />
+    <Factor Code="20" Title="استفاده مجدد" PriCostEfficiency="0" DeprStackedEfficiency="0" Type="5" HasAccount="false" HasPrice="false" Formula="" IsEnable="true" Description="" />
+    <Factor Code="21" Title="تعمیر و نگهداری" PriCostEfficiency="0" DeprStackedEfficiency="0" Type="3" HasAccount="true" HasPrice="true" Formula="" IsEnable="true" Description="" />
+    <Factor Code="22" Title="تعمیر اساسی" PriCostEfficiency="1" DeprStackedEfficiency="0" Type="3" HasAccount="true" HasPrice="true" Formula="" IsEnable="true" Description="" />
+    <Factor Code="23" Title="اهدا" PriCostEfficiency="-1" DeprStackedEfficiency="0" Type="6" HasAccount="true" HasPrice="true" Formula="" IsEnable="true" Description="" />
+    <Factor Code="24" Title="فروش" PriCostEfficiency="-1" DeprStackedEfficiency="0" Type="6" HasAccount="true" HasPrice="true" Formula="" IsEnable="true" Description="" />
+    <Factor Code="25" Title="اسقاط" PriCostEfficiency="-1" DeprStackedEfficiency="0" Type="6" HasAccount="true" HasPrice="true" Formula="" IsEnable="true" Description="" />
+  </FactorRoot>
+  <FactorParameterRoot>
+    <FactorParameter FactorCode="11" Title="شماره پلاک" IsDetail="true" Type="متن" IsNullable="false" IsReadOnly="false" HasAccount="false" Size="100" Arrange="1" EffectiveCode="0" Description="" AssetMasterKey="1" FormulaCode="1" />
+    <FactorParameter FactorCode="11" Title="نرخ/سال" IsDetail="true" Type="عدد" IsNullable="true" IsReadOnly="false" HasAccount="false" Size="100" Arrange="101" EffectiveCode="0" Description="" AssetMasterKey="2" FormulaCode="101" />
+    <FactorParameter FactorCode="11" Title="ارزش اسقاط" IsDetail="true" Type="پول" IsNullable="true" IsReadOnly="false" HasAccount="false" Size="100" Arrange="102" EffectiveCode="1" Description="" AssetMasterKey="3" FormulaCode="102" />
+    <FactorParameter FactorCode="11" Title="جمع دار" IsDetail="false" Type="اشخاص" IsNullable="true" IsReadOnly="false" HasAccount="false" Size="200" Arrange="103" EffectiveCode="0" Description="" AssetMasterKey="6" FormulaCode="103" />
+    <FactorParameter FactorCode="24" Title="مبلغ فروش" IsDetail="true" Type="پول" IsNullable="false" IsReadOnly="false" HasAccount="true" Size="100" Arrange="1" EffectiveCode="1" Description="" AssetMasterKey="0" FormulaCode="1" />
+    <FactorParameter FactorCode="16" Title="تحویل دار" IsDetail="false" Type="اشخاص" IsNullable="false" IsReadOnly="false" HasAccount="false" Size="200" Arrange="101" EffectiveCode="0" Description="" AssetMasterKey="7" FormulaCode="101" />
+    <FactorParameter FactorCode="17" Title="مرکز هزینه" IsDetail="false" Type="مراکز هزینه" IsNullable="false" IsReadOnly="false" HasAccount="false" Size="200" Arrange="101" EffectiveCode="0" Description="" AssetMasterKey="11" FormulaCode="101" />
+  </FactorParameterRoot>
+</Template>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--This file created by Sayan software.-->
+<!--Web: www.sayanpardaz.com-->
+<Template>
+  <ProceedingRoot>
+    <Proceeding Code="71" Title="خرید" EffectiveCode="0" CanBaseLess="true" Formula="" HasAccount="false" HasPrice="true" SystemCode="6" IsReserve="false" IsEnable="true" Description="" />
+  </ProceedingRoot>
+  <ParameterRoot>
+    <Parameter ProceedingCode="71" Title="جمع دار" IsDetail="true" Type="اشخاص" IsNullable="false" IsReadOnly="false" HasAccount="false" Size="100" Arrange="1" Formula="" FormulaCode="1" EffectiveCode="0" Description="" MasterKey="0" />
+  </ParameterRoot>
+  <BaseRelationshipRoot />
+</Template>

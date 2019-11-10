@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--This file created by Sayan software.-->
+<!--Web: www.sayanpardaz.com-->
+<Template>
+  <ProceedingRoot>
+    <Proceeding Code="50" Title="دریافت سفارش" EffectiveCode="0" CanBaseLess="true" Formula="" HasAccount="false" HasPrice="false" SystemCode="3" IsReserve="false" IsEnable="true" Description="" />
+  </ProceedingRoot>
+  <ParameterRoot>
+    <Parameter ProceedingCode="50" Title="کد فرعی" IsDetail="false" Type="متن" IsNullable="true" IsReadOnly="false" HasAccount="false" Size="200" Arrange="102" Formula="" FormulaCode="102" EffectiveCode="0" Description="" MasterKey="6" />
+    <Parameter ProceedingCode="50" Title="توضیحات" IsDetail="false" Type="متن" IsNullable="true" IsReadOnly="false" HasAccount="false" Size="200" Arrange="103" Formula="" FormulaCode="103" EffectiveCode="0" Description="" MasterKey="7" />
+  </ParameterRoot>
+  <BaseRelationshipRoot />
+</Template>
