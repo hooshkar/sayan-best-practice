@@ -209,14 +209,14 @@
   </Group>
   <Group Code="6" Title="فروش و درآمدها" Nature="1" IsEnable="true" IsInterim="true" Description="">
     <Ledger GroupCode="6" Code="1" Title="فروش" Nature="1" IsEnable="true">
-      <Subsidiary GroupCode="6" LedgerCode="1" Code="101" Title="برگشت از فروش" Nature="0" IsEnable="true" Description="" />
       <Subsidiary GroupCode="6" LedgerCode="1" Code="102" Title="فروش" Nature="1" IsEnable="true" Description="" />
       <Subsidiary GroupCode="6" LedgerCode="1" Code="103" Title="تخفیفات بر فروش" Nature="0" IsEnable="true" Description="" />
+      <Subsidiary GroupCode="6" LedgerCode="1" Code="104" Title="برگشت از فروش" Nature="0" IsEnable="true" Description="" />
     </Ledger>
     <Ledger GroupCode="6" Code="2" Title="درآمد حاصل از ارائه خدمات" Nature="1" IsEnable="true" Description="">
-      <Subsidiary GroupCode="6" LedgerCode="2" Code="101" Title="برگشت از فروش خدمات" Nature="0" IsEnable="true" Description="" />
       <Subsidiary GroupCode="6" LedgerCode="2" Code="102" Title="فروش خدمات" Nature="1" IsEnable="true" Description="" />
       <Subsidiary GroupCode="6" LedgerCode="2" Code="103" Title="تخفیفات بر فروش خدمات" Nature="0" IsEnable="true" Description="" />
+      <Subsidiary GroupCode="6" LedgerCode="2" Code="104" Title="برگشت از فروش خدمات" Nature="0" IsEnable="true" Description="" />
     </Ledger>
     <Ledger GroupCode="6" Code="3" Title="سایر درآمدهای عملیاتی" Nature="1" IsEnable="true" Description="">
       <Subsidiary GroupCode="6" LedgerCode="3" Code="101" Title="فروش ضایعات" Nature="1" IsEnable="true" />
