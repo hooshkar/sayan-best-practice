@@ -2,7 +2,7 @@
 <!--This file created by Sayan software.-->
 <!--Web: www.sayanpardaz.com-->
 <FormulaRelationship>
-  <Processing Code="11" Title="دوره ی پردازش" ProcessingTypeTitle="همه اموال" IsEnable="true" Description="" />
+  <Processing Code="11" Title="دوره ی پردازش" ProcessingType="0" IsEnable="true" Description="" />
   <processingAssetGroup FormulaCode="111001" AssetGroupCode="111003" ProcessingCode="11" />
   <processingAssetGroup FormulaCode="111001" AssetGroupCode="111004" ProcessingCode="11" />
   <processingAssetGroup FormulaCode="111001" AssetGroupCode="111016" ProcessingCode="11" />
