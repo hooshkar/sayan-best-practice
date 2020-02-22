@@ -3,23 +3,23 @@
 <!--Web: www.sayanpardaz.com-->
 <Template>
   <ProceedingRoot>
-    <Proceeding Code="11" Title="دریافت" Location="0" HasAccount="true" IsEnable="true" Description="" />
-    <Proceeding Code="12" Title="پرداخت" Location="0" HasAccount="true" IsEnable="true" Description="" />
-    <Proceeding Code="16" Title="واگذار به صندوق" Location="0" HasAccount="true" IsEnable="true" Description="" />
-    <Proceeding Code="17" Title="واگذار به بانک" Location="1" HasAccount="true" IsEnable="true" Description="" />
-    <Proceeding Code="18" Title="عملیات چک ها" Location="3" HasAccount="true" IsEnable="true" Description="" />
-    <Proceeding Code="19" Title="صورت خلاصه تنخواه" Location="2" HasAccount="true" IsEnable="true" Description="" />
-    <Proceeding Code="20" Title="ثبت هزینه" Location="0" HasAccount="true" IsEnable="true" Description="" />
-    <Proceeding Code="21" Title="ثبت درآمد" Location="0" HasAccount="true" IsEnable="true" Description="" />
-    <Proceeding Code="38" Title="استقرار صندوق ها" Location="0" HasAccount="true" IsEnable="true" Description="" />
-    <Proceeding Code="39" Title="استقرار حساب های بانکی" Location="1" HasAccount="true" IsEnable="true" Description="" />
-    <Proceeding Code="40" Title="استقرار اشخاص" Location="3" HasAccount="true" IsEnable="true" Description="" />
-    <Proceeding Code="41" Title="تسویه فروش" Location="0" SystemCode="2" HasAccount="true" IsEnable="true" Description="" />
-    <Proceeding Code="42" Title="تسویه خرید" Location="0" SystemCode="2" HasAccount="true" IsEnable="true" Description="" />
-    <Proceeding Code="43" Title="تسویه مرجوعی فروش" Location="0" SystemCode="2" HasAccount="true" IsEnable="true" Description="" />
-    <Proceeding Code="44" Title="تسویه مرجوعی خرید" Location="0" SystemCode="2" HasAccount="true" IsEnable="true" Description="" />
-    <Proceeding Code="45" Title="پرداخت مساعده" Location="0" SystemCode="6" HasAccount="true" IsEnable="true" Description="" />
-    <Proceeding Code="46" Title="پرداخت وام" Location="0" SystemCode="7" HasAccount="true" IsEnable="true" Description="" />
+    <Proceeding Code="11" Title="دریافت" Location="0" BurIssuable="0" HasAccount="true" IsEnable="true" Description="" />
+    <Proceeding Code="12" Title="پرداخت" Location="0" BurIssuable="0" HasAccount="true" IsEnable="true" Description="" />
+    <Proceeding Code="16" Title="واگذار به صندوق" Location="0" BurIssuable="0" HasAccount="true" IsEnable="true" Description="" />
+    <Proceeding Code="17" Title="واگذار به بانک" Location="1" BurIssuable="0" HasAccount="true" IsEnable="true" Description="" />
+    <Proceeding Code="18" Title="عملیات چک ها" Location="3" BurIssuable="0" HasAccount="true" IsEnable="true" Description="" />
+    <Proceeding Code="19" Title="صورت خلاصه تنخواه" Location="2" BurIssuable="0" HasAccount="true" IsEnable="true" Description="" />
+    <Proceeding Code="20" Title="ثبت هزینه" Location="0" BurIssuable="0" HasAccount="true" IsEnable="true" Description="" />
+    <Proceeding Code="21" Title="ثبت درآمد" Location="0" BurIssuable="0" HasAccount="true" IsEnable="true" Description="" />
+    <Proceeding Code="38" Title="استقرار صندوق ها" Location="0" BurIssuable="0" HasAccount="true" IsEnable="true" Description="" />
+    <Proceeding Code="39" Title="استقرار حساب های بانکی" Location="1" BurIssuable="0" HasAccount="true" IsEnable="true" Description="" />
+    <Proceeding Code="40" Title="استقرار اشخاص" Location="3" BurIssuable="0" HasAccount="true" IsEnable="true" Description="" />
+    <Proceeding Code="41" Title="تسویه فروش" Location="0" BurIssuable="2" HasAccount="true" IsEnable="true" Description="" />
+    <Proceeding Code="42" Title="تسویه خرید" Location="0" BurIssuable="2" HasAccount="true" IsEnable="true" Description="" />
+    <Proceeding Code="43" Title="تسویه مرجوعی فروش" Location="0" BurIssuable="2" HasAccount="true" IsEnable="true" Description="" />
+    <Proceeding Code="44" Title="تسویه مرجوعی خرید" Location="0" BurIssuable="2" HasAccount="true" IsEnable="true" Description="" />
+    <Proceeding Code="45" Title="پرداخت مساعده" Location="0" BurIssuable="6" HasAccount="true" IsEnable="true" Description="" />
+    <Proceeding Code="46" Title="پرداخت وام" Location="0" BurIssuable="7" HasAccount="true" IsEnable="true" Description="" />
   </ProceedingRoot>
   <SubProceedingRoot>
     <SubProceeding Title="دریافت از مشتری" Code="1" ProceedingCode="11" IsEnable="true" />
