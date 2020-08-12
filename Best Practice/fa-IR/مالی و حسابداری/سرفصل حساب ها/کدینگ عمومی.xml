@@ -35,27 +35,32 @@
       <Subsidiary GroupCode="1" LedgerCode="5" Code="103" Title="علی الحساب سود پرداختی شرکاء" Nature="0" IsEnable="true" />
     </Ledger>
     <Ledger GroupCode="1" Code="6" Title="موجودی مواد و کالا" Nature="0" IsEnable="true">
-      <Subsidiary GroupCode="1" LedgerCode="6" Code="101" Title="موجودی ابتدای دوره" Nature="0" IsEnable="true" Description="" />
-      <Subsidiary GroupCode="1" LedgerCode="6" Code="102" Title="موجودی خرید طی دوره" Nature="0" IsEnable="true" Description="" />
-      <Subsidiary GroupCode="1" LedgerCode="6" Code="103" Title="موجودی کالای آماده برای فروش" Nature="0" IsEnable="true" Description="" />
-      <Subsidiary GroupCode="1" LedgerCode="6" Code="104" Title="موجودی کالای در راه" Nature="0" IsEnable="true" Description="" />
-      <Subsidiary GroupCode="1" LedgerCode="6" Code="105" Title="سایر موجودی ها" Nature="0" IsEnable="true" />
-      <Subsidiary GroupCode="1" LedgerCode="6" Code="106" Title="موجودی پایان دوره" Nature="0" IsEnable="true" Description="" />
+      <Subsidiary GroupCode="1" LedgerCode="6" Code="102" Title="موجودی مواد و محصولات" Nature="0" IsEnable="true" Description="" />
+      <Subsidiary GroupCode="1" LedgerCode="6" Code="103" Title="موجودی ملزومات و قطعات یدکی" Nature="0" IsEnable="true" Description="" />
+      <Subsidiary GroupCode="1" LedgerCode="6" Code="104" Title="موجودی در جریان ساخت" Nature="0" IsEnable="true" Description="" />
+      <Subsidiary GroupCode="1" LedgerCode="6" Code="105" Title="موجودی کالای در راه" Nature="0" IsEnable="true" Description="" />
+      <Subsidiary GroupCode="1" LedgerCode="6" Code="106" Title="موجودی امانی ما نزد دیگران" Nature="0" IsEnable="true" Description="" />
+      <Subsidiary GroupCode="1" LedgerCode="6" Code="107" Title="موجودی ضایعات" Nature="0" IsEnable="true" Description="" />
+      <Subsidiary GroupCode="1" LedgerCode="6" Code="108" Title="موجودی سایر کالاها" Nature="0" IsEnable="true" Description="" />
     </Ledger>
-    <Ledger GroupCode="1" Code="7" Title="موجودی کالای در جریان ساخت" Nature="0" IsEnable="true">
-      <Subsidiary GroupCode="1" LedgerCode="7" Code="101" Title="موجودی کالای در جریان ساخت - دستمزد" Nature="0" IsEnable="true" />
-      <Subsidiary GroupCode="1" LedgerCode="7" Code="102" Title="موجودی کالای در جریان ساخت - مواد" Nature="0" IsEnable="true" />
-      <Subsidiary GroupCode="1" LedgerCode="7" Code="103" Title="موجودی کالای در جریان ساخت - سربار" Nature="0" IsEnable="true" />
+    <Ledger GroupCode="1" Code="7" Title="سفارشات و پیش پرداختها" Nature="0" IsEnable="true" Description="">
+      <Subsidiary GroupCode="1" LedgerCode="7" Code="101" Title="پیش پرداخت مالیات" Nature="0" IsEnable="true" />
+      <Subsidiary GroupCode="1" LedgerCode="7" Code="102" Title="سفارشات خارجی" Nature="0" IsEnable="true" Description="" />
+      <Subsidiary GroupCode="1" LedgerCode="7" Code="103" Title="پیش پرداختهای اعتبارات اسنادی" Nature="0" IsEnable="true" />
+      <Subsidiary GroupCode="1" LedgerCode="7" Code="104" Title="پیش پرداختهای خرید کالا و خدمات" Nature="0" IsEnable="true" Description="" />
+      <Subsidiary GroupCode="1" LedgerCode="7" Code="105" Title="پیش پرداخت بیمه کارکنان" Nature="0" IsEnable="true" Description="" />
+      <Subsidiary GroupCode="1" LedgerCode="7" Code="106" Title="پیش پرداخت اجاره" Nature="0" IsEnable="true" />
+      <Subsidiary GroupCode="1" LedgerCode="7" Code="107" Title="پیش پرداخت هزینه بهره وری تولید" Nature="0" IsEnable="true" />
+      <Subsidiary GroupCode="1" LedgerCode="7" Code="108" Title="سایر پیش پرداختها" Nature="0" IsEnable="true" />
     </Ledger>
-    <Ledger GroupCode="1" Code="8" Title="سفارشات و پیش پرداختها" Nature="0" IsEnable="true">
-      <Subsidiary GroupCode="1" LedgerCode="8" Code="101" Title="پیش پرداخت مالیات" Nature="0" IsEnable="true" />
-      <Subsidiary GroupCode="1" LedgerCode="8" Code="102" Title="سفارشات خارجی" Nature="0" IsEnable="true" Description="" />
-      <Subsidiary GroupCode="1" LedgerCode="8" Code="103" Title="پیش پرداختهای اعتبارات اسنادی" Nature="0" IsEnable="true" />
-      <Subsidiary GroupCode="1" LedgerCode="8" Code="104" Title="پیش پرداختهای خرید کالا و خدمات" Nature="0" IsEnable="true" Description="" />
-      <Subsidiary GroupCode="1" LedgerCode="8" Code="105" Title="پیش پرداخت بیمه کارکنان" Nature="0" IsEnable="true" Description="" />
-      <Subsidiary GroupCode="1" LedgerCode="8" Code="106" Title="پیش پرداخت اجاره" Nature="0" IsEnable="true" />
-      <Subsidiary GroupCode="1" LedgerCode="8" Code="107" Title="پیش پرداخت هزینه بهره وری تولید" Nature="0" IsEnable="true" />
-      <Subsidiary GroupCode="1" LedgerCode="8" Code="108" Title="سایر پیش پرداختها" Nature="0" IsEnable="true" />
+    <Ledger GroupCode="1" Code="8" Title="سپرده های ما نزد دیگران" Nature="0" IsEnable="true" Description="">
+      <Subsidiary GroupCode="1" LedgerCode="8" Code="101" Title="سپرده بیمه" Nature="0" IsEnable="true" Description="" />
+      <Subsidiary GroupCode="1" LedgerCode="8" Code="102" Title="سپرده حسن انجام کار" Nature="0" IsEnable="true" Description="" />
+      <Subsidiary GroupCode="1" LedgerCode="8" Code="103" Title="سپرده حسن اجرای تعهدات" Nature="0" IsEnable="true" Description="" />
+      <Subsidiary GroupCode="1" LedgerCode="8" Code="104" Title="سپرده شرکت در مناقصه" Nature="0" IsEnable="true" Description="" />
+      <Subsidiary GroupCode="1" LedgerCode="8" Code="105" Title="سپرده شرکت مزایده" Nature="0" IsEnable="true" Description="" />
+      <Subsidiary GroupCode="1" LedgerCode="8" Code="106" Title="سپرده نزد بانک ها" Nature="0" IsEnable="true" Description="" />
+      <Subsidiary GroupCode="1" LedgerCode="8" Code="107" Title="سپرده های گمرکی" Nature="0" IsEnable="true" Description="" />
     </Ledger>
   </Group>
   <Group Code="2" Title="داراییهای غیر جاری" Nature="0" IsEnable="true" IsInterim="false">
@@ -148,14 +153,15 @@
       <Subsidiary GroupCode="3" LedgerCode="2" Code="115" Title="مالیات ارزش افزوده - بدهی" Nature="1" IsEnable="true" Description="" />
       <Subsidiary GroupCode="3" LedgerCode="2" Code="116" Title="تفاوت ریال حقوق کارکنان (بدهی)" Nature="1" IsEnable="true" Description="" />
       <Subsidiary GroupCode="3" LedgerCode="2" Code="117" Title="مالیات حقوق پرداختنی" Nature="1" IsEnable="true" Description="" />
+      <Subsidiary GroupCode="3" LedgerCode="2" Code="118" Title="واریزی نامشخص" Nature="1" IsEnable="true" Description="" />
     </Ledger>
     <Ledger GroupCode="3" Code="3" Title="جاری شرکاء - بدهی ها" Nature="1" IsEnable="true">
       <Subsidiary GroupCode="3" LedgerCode="3" Code="101" Title="حسابهای پرداختنی به شرکاء" Nature="1" IsEnable="true" />
       <Subsidiary GroupCode="3" LedgerCode="3" Code="102" Title="اسناد پرداختنی به شرکاء" Nature="1" IsEnable="true" />
     </Ledger>
-    <Ledger GroupCode="3" Code="4" Title="پیش دریافت ها" Nature="1" IsEnable="true">
-      <Subsidiary GroupCode="3" LedgerCode="4" Code="101" Title="واریزی های نامشخص" Nature="1" IsEnable="true" />
-      <Subsidiary GroupCode="3" LedgerCode="4" Code="102" Title="پیش دریافت از سایر مشتریان" Nature="1" IsEnable="true" />
+    <Ledger GroupCode="3" Code="4" Title="سفارشات و پیش دریافت ها" Nature="1" IsEnable="true" Description="">
+      <Subsidiary GroupCode="3" LedgerCode="4" Code="101" Title="پیش دریافت فروش" Nature="1" IsEnable="true" Description="" />
+      <Subsidiary GroupCode="3" LedgerCode="4" Code="102" Title="پیش دریافت ارائه خدمات" Nature="1" IsEnable="true" Description="" />
       <Subsidiary GroupCode="3" LedgerCode="4" Code="103" Title="سایر پیش دریافت ها" Nature="1" IsEnable="true" />
     </Ledger>
     <Ledger GroupCode="3" Code="5" Title="ذخیره مالیات" Nature="1" IsEnable="true">
@@ -167,9 +173,13 @@
       <Subsidiary GroupCode="3" LedgerCode="6" Code="101" Title="سود سهام پرداختنی" Nature="1" IsEnable="true" />
       <Subsidiary GroupCode="3" LedgerCode="6" Code="102" Title="سود سهام پیشنهادی" Nature="1" IsEnable="true" />
     </Ledger>
-    <Ledger GroupCode="3" Code="7" Title="تسهیلات مالی دریافتی" Nature="1" IsEnable="true">
-      <Subsidiary GroupCode="3" LedgerCode="7" Code="101" Title="تسهیلات مالی دریافتی کوتاه مدت" Nature="1" IsEnable="true" />
-      <Subsidiary GroupCode="3" LedgerCode="7" Code="102" Title="حصه جاری وام های بلند مدت" Nature="1" IsEnable="true" Description="" />
+    <Ledger GroupCode="3" Code="7" Title="سپرده های پرداختنی" Nature="1" IsEnable="true" Description="">
+      <Subsidiary GroupCode="3" LedgerCode="7" Code="101" Title="سپرده پرداختنی حسن انجام کار" Nature="1" IsEnable="true" Description="" />
+      <Subsidiary GroupCode="3" LedgerCode="7" Code="102" Title="سپرده پرداختنی حسن اجرای تعهدات" Nature="1" IsEnable="true" Description="" />
+    </Ledger>
+    <Ledger GroupCode="3" Code="8" Title="تسهیلات مالی دریافتی" Nature="1" IsEnable="true">
+      <Subsidiary GroupCode="3" LedgerCode="8" Code="101" Title="تسهیلات مالی دریافتی کوتاه مدت" Nature="1" IsEnable="true" />
+      <Subsidiary GroupCode="3" LedgerCode="8" Code="102" Title="حصه جاری وام های بلند مدت" Nature="1" IsEnable="true" Description="" />
     </Ledger>
   </Group>
   <Group Code="4" Title="بدهی های غیر جاری" Nature="1" IsEnable="true" IsInterim="false">
