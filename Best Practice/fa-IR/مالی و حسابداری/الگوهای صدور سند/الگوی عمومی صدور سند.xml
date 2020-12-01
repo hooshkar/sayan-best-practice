@@ -397,38 +397,29 @@
   <Item Department="8" Key="11&amp;00" LayerCode="14" Side="0" Method="2" Description="" />
   <Item Department="8" Key="11&amp;00" LayerCode="52" Side="2" Method="1" Description="" />
   <Item Department="2" Key="12&amp;0" LayerCode="00" Side="0" Method="0" AccountCode="13101" Description="" />
-  <Item Department="2" Key="12&amp;0" LayerCode="00" Side="1" Method="0" AccountCode="61102" Description="" />
   <Item Department="2" Key="12&amp;0" LayerCode="11" Side="0" Method="1" Description="" />
   <Item Department="2" Key="12&amp;000" LayerCode="00" Side="0" Method="0" AccountCode="11101" Description="" />
-  <Item Department="2" Key="12&amp;000" LayerCode="00" Side="1" Method="0" AccountCode="61102" Description="" />
-  <Item Department="2" Key="12&amp;000" LayerCode="12" Side="0" Method="0" AccountCode="1211" Description="" />
+  <Item Department="2" Key="12&amp;000&amp;0" LayerCode="12" Side="0" Method="14" Description="" />
   <Item Department="2" Key="12&amp;0000" LayerCode="00" Side="0" Method="0" AccountCode="13101" Description="" />
-  <Item Department="2" Key="12&amp;0000" LayerCode="00" Side="1" Method="0" AccountCode="61102" Description="" />
   <Item Department="2" Key="12&amp;0000" LayerCode="11" Side="0" Method="1" Description="" />
   <Item Department="2" Key="12&amp;1" LayerCode="00" Side="0" Method="0" AccountCode="61103" Description="" />
   <Item Department="2" Key="12&amp;1" LayerCode="00" Side="1" Method="10" Description="" />
   <Item Department="2" Key="12&amp;2" LayerCode="00" Side="0" Method="10" Description="" />
   <Item Department="2" Key="12&amp;2" LayerCode="00" Side="1" Method="0" AccountCode="32115" Description="" />
-  <Item Department="2" Key="13&amp;0" LayerCode="00" Side="0" Method="0" AccountCode="61104" Description="" />
   <Item Department="2" Key="13&amp;0" LayerCode="00" Side="1" Method="0" AccountCode="13101" Description="" />
   <Item Department="2" Key="13&amp;0" LayerCode="11" Side="1" Method="1" Description="" />
-  <Item Department="2" Key="13&amp;000" LayerCode="00" Side="0" Method="0" AccountCode="61104" Description="" />
   <Item Department="2" Key="13&amp;000" LayerCode="00" Side="1" Method="0" AccountCode="11101" Description="" />
-  <Item Department="2" Key="13&amp;000" LayerCode="12" Side="1" Method="0" AccountCode="1211" Description="" />
-  <Item Department="2" Key="13&amp;0000" LayerCode="00" Side="0" Method="0" AccountCode="61104" Description="" />
+  <Item Department="2" Key="13&amp;000&amp;0" LayerCode="12" Side="1" Method="14" Description="" />
   <Item Department="2" Key="13&amp;0000" LayerCode="00" Side="1" Method="0" AccountCode="13101" Description="" />
   <Item Department="2" Key="13&amp;0000" LayerCode="11" Side="1" Method="1" Description="" />
   <Item Department="2" Key="13&amp;1" LayerCode="00" Side="0" Method="11" Description="" />
   <Item Department="2" Key="13&amp;1" LayerCode="00" Side="1" Method="0" AccountCode="61104" Description="" />
   <Item Department="2" Key="13&amp;2" LayerCode="00" Side="0" Method="0" AccountCode="32115" Description="" />
   <Item Department="2" Key="13&amp;2" LayerCode="00" Side="1" Method="11" Description="" />
-  <Item Department="2" Key="14&amp;0" LayerCode="00" Side="0" Method="0" AccountCode="16102" Description="" />
   <Item Department="2" Key="14&amp;0" LayerCode="00" Side="1" Method="0" AccountCode="31101" Description="" />
   <Item Department="2" Key="14&amp;0" LayerCode="11" Side="1" Method="1" Description="" />
-  <Item Department="2" Key="14&amp;000" LayerCode="00" Side="0" Method="0" AccountCode="16102" Description="" />
   <Item Department="2" Key="14&amp;000" LayerCode="00" Side="1" Method="0" AccountCode="11101" Description="" />
-  <Item Department="2" Key="14&amp;000" LayerCode="12" Side="1" Method="0" AccountCode="1211" Description="" />
-  <Item Department="2" Key="14&amp;0000" LayerCode="00" Side="0" Method="0" AccountCode="16102" Description="" />
+  <Item Department="2" Key="14&amp;000&amp;0" LayerCode="12" Side="1" Method="14" Description="" />
   <Item Department="2" Key="14&amp;0000" LayerCode="00" Side="1" Method="0" AccountCode="31101" Description="" />
   <Item Department="2" Key="14&amp;0000" LayerCode="11" Side="1" Method="1" Description="" />
   <Item Department="2" Key="14&amp;1" LayerCode="00" Side="0" Method="11" Description="" />
@@ -436,13 +427,10 @@
   <Item Department="2" Key="14&amp;2" LayerCode="00" Side="0" Method="0" AccountCode="14112" Description="" />
   <Item Department="2" Key="14&amp;2" LayerCode="00" Side="1" Method="11" Description="" />
   <Item Department="2" Key="15&amp;0" LayerCode="00" Side="0" Method="0" AccountCode="31101" Description="" />
-  <Item Department="2" Key="15&amp;0" LayerCode="00" Side="1" Method="0" AccountCode="16102" Description="" />
   <Item Department="2" Key="15&amp;0" LayerCode="11" Side="0" Method="1" Description="" />
   <Item Department="2" Key="15&amp;000" LayerCode="00" Side="0" Method="0" AccountCode="11101" Description="" />
-  <Item Department="2" Key="15&amp;000" LayerCode="00" Side="1" Method="0" AccountCode="16102" Description="" />
-  <Item Department="2" Key="15&amp;000" LayerCode="12" Side="0" Method="0" AccountCode="1211" Description="" />
+  <Item Department="2" Key="15&amp;000&amp;0" LayerCode="12" Side="0" Method="14" Description="" />
   <Item Department="2" Key="15&amp;0000" LayerCode="00" Side="0" Method="0" AccountCode="31101" Description="" />
-  <Item Department="2" Key="15&amp;0000" LayerCode="00" Side="1" Method="0" AccountCode="16102" Description="" />
   <Item Department="2" Key="15&amp;0000" LayerCode="11" Side="0" Method="1" Description="" />
   <Item Department="2" Key="15&amp;1" LayerCode="00" Side="0" Method="11" Description="" />
   <Item Department="2" Key="15&amp;1" LayerCode="00" Side="1" Method="10" Description="" />
@@ -453,19 +441,19 @@
   <Item Department="2" Key="14&amp;000" LayerCode="11" Side="2" Method="1" Description="" />
   <Item Department="2" Key="15&amp;000" LayerCode="11" Side="2" Method="1" Description="" />
   <Item Department="2" Key="12&amp;00000&amp;0" LayerCode="00" Side="0" Method="0" AccountCode="11102" Description="" />
-  <Item Department="2" Key="12&amp;00000" LayerCode="00" Side="1" Method="0" AccountCode="61102" Description="" />
-  <Item Department="2" Key="12&amp;00000&amp;0" LayerCode="13" Side="0" Method="0" AccountCode="1311" Description="" />
+  <Item Department="2" Key="12&amp;00000&amp;0" LayerCode="13" Side="0" Method="14" Description="" />
   <Item Department="2" Key="12&amp;00000" LayerCode="11" Side="2" Method="1" Description="" />
-  <Item Department="2" Key="13&amp;00000" LayerCode="00" Side="0" Method="0" AccountCode="61104" Description="" />
   <Item Department="2" Key="13&amp;00000&amp;0" LayerCode="00" Side="1" Method="0" AccountCode="11102" Description="" />
-  <Item Department="2" Key="13&amp;00000&amp;0" LayerCode="13" Side="1" Method="0" AccountCode="1311" Description="" />
+  <Item Department="2" Key="13&amp;00000&amp;0" LayerCode="13" Side="1" Method="14" Description="" />
   <Item Department="2" Key="13&amp;00000" LayerCode="11" Side="2" Method="1" Description="" />
-  <Item Department="2" Key="14&amp;00000" LayerCode="00" Side="0" Method="0" AccountCode="16102" Description="" />
   <Item Department="2" Key="14&amp;00000&amp;0" LayerCode="00" Side="1" Method="0" AccountCode="11102" Description="" />
-  <Item Department="2" Key="14&amp;00000&amp;0" LayerCode="13" Side="1" Method="0" AccountCode="1311" Description="" />
+  <Item Department="2" Key="14&amp;00000&amp;0" LayerCode="13" Side="1" Method="14" Description="" />
   <Item Department="2" Key="14&amp;00000" LayerCode="11" Side="2" Method="1" Description="" />
   <Item Department="2" Key="15&amp;00000&amp;0" LayerCode="00" Side="0" Method="0" AccountCode="11102" Description="" />
-  <Item Department="2" Key="15&amp;00000" LayerCode="00" Side="1" Method="0" AccountCode="16102" Description="" />
-  <Item Department="2" Key="15&amp;00000&amp;0" LayerCode="13" Side="0" Method="0" AccountCode="1311" Description="" />
+  <Item Department="2" Key="15&amp;00000&amp;0" LayerCode="13" Side="0" Method="14" Description="" />
   <Item Department="2" Key="15&amp;00000" LayerCode="11" Side="2" Method="1" Description="" />
+  <Item Department="2" Key="12&amp;00&amp;0" LayerCode="00" Side="1" Method="0" AccountCode="61102" Description="" />
+  <Item Department="2" Key="13&amp;00&amp;0" LayerCode="00" Side="0" Method="0" AccountCode="61104" Description="" />
+  <Item Department="2" Key="14&amp;00&amp;0" LayerCode="00" Side="0" Method="0" AccountCode="16102" Description="" />
+  <Item Department="2" Key="15&amp;00&amp;0" LayerCode="00" Side="1" Method="0" AccountCode="16102" Description="" />
 </Pattern>
