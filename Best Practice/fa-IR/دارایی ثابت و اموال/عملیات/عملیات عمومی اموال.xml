@@ -3,10 +3,10 @@
 <!--Web: www.sayanpardaz.com-->
 <Template>
   <ProceedingRoot>
-    <Proceeding Code="71" Title="خرید" EffectiveCode="0" CanBaseLess="true" Formula="" HasAccount="false" HasPrice="true" SystemCode="6" IsReserve="false" IsEnable="true" Description="" />
+    <Proceeding Code="71" Title="خرید" EffectiveCode="0" CanBaseLess="true" BaseControl="0" Formula="" CalcRequired="false" HasAccount="false" PeriodVoucherType="0" HasPrice="true" SystemCode="6" IsAbsolute="true" PaymentMode="NoSettling" IsEnable="true" Description="" />
   </ProceedingRoot>
   <ParameterRoot>
-    <Parameter ProceedingCode="71" Title="جمع دار" IsDetail="true" Type="اشخاص" IsNullable="false" IsReadOnly="false" HasAccount="false" Size="100" Arrange="1" Formula="" FormulaCode="1" EffectiveCode="0" Description="" MasterKey="0" />
+    <Parameter ProceedingCode="71" Title="جمع دار" IsDetail="true" Type="10" IsNullable="false" IsReadOnly="false" HasAccount="false" Size="100" Arrange="1" Formula="" CalcRequired="false" FormulaCode="1" EffectiveCode="0" PayableCode="0" Description="" MasterKey="0" />
   </ParameterRoot>
   <BaseRelationshipRoot />
 </Template>
