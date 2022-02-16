@@ -317,10 +317,6 @@
   <Item Department="5" Key="12&amp;15&amp;DT_1" LayerCode="13" Side="1" Method="8" Description="" />
   <Item Department="5" Key="12&amp;16&amp;DT_1" LayerCode="00" Side="1" Method="0" AccountCode="31102" Description="" />
   <Item Department="5" Key="11&amp;_1&amp;19&amp;DT_1" LayerCode="00" Side="1" Method="0" AccountCode="13101" Description="" />
-  <Item Department="5" Key="11&amp;52&amp;DT_1" LayerCode="00" Side="0" Method="0" AccountCode="13101" Description="" />
-  <Item Department="5" Key="11&amp;52&amp;DT_1" LayerCode="11" Side="0" Method="2" Description="" />
-  <Item Department="5" Key="11&amp;52&amp;DT_1" LayerCode="00" Side="1" Method="0" AccountCode="13101" Description="" />
-  <Item Department="5" Key="11&amp;52&amp;DT_1" LayerCode="11" Side="1" Method="1" Description="" />
   <Item Department="5" Key="40&amp;_7&amp;39&amp;DT_1" LayerCode="00" Side="0" Method="0" AccountCode="13101" Description="" />
   <Item Department="5" Key="40&amp;_7&amp;40&amp;DT_1" LayerCode="00" Side="1" Method="0" AccountCode="13101" Description="" />
   <Item Department="5" Key="40&amp;00&amp;DT_0" LayerCode="00" Side="2" Method="0" AccountCode="55102" Description="" />
@@ -456,4 +452,20 @@
   <Item Department="2" Key="13&amp;00&amp;0" LayerCode="00" Side="0" Method="0" AccountCode="61104" Description="" />
   <Item Department="2" Key="14&amp;00&amp;0" LayerCode="00" Side="0" Method="0" AccountCode="16102" Description="" />
   <Item Department="2" Key="15&amp;00&amp;0" LayerCode="00" Side="1" Method="0" AccountCode="16102" Description="" />
+  <Item Department="5" Key="19&amp;53&amp;DT_1" LayerCode="00" Side="0" Method="1" Description="" />
+  <Item Department="5" Key="19&amp;53&amp;DT_1" LayerCode="00" Side="1" Method="0" AccountCode="11104" Description="" />
+  <Item Department="5" Key="19&amp;53&amp;DT_1" LayerCode="53" Side="1" Method="1" Description="" />
+  <Item Department="5" Key="11&amp;52&amp;DT_1" LayerCode="00" Side="0" Method="0" AccountCode="15101" Description="" />
+  <Item Department="5" Key="11&amp;52&amp;DT_1" LayerCode="51" Side="0" Method="2" Description="" />
+  <Item Department="5" Key="11&amp;_1&amp;52&amp;DT_1" LayerCode="00" Side="1" Method="0" AccountCode="13101" Description="" />
+  <Item Department="5" Key="11&amp;_2&amp;52&amp;DT_1" LayerCode="00" Side="1" Method="0" AccountCode="31101" Description="" />
+  <Item Department="5" Key="11&amp;_3&amp;52&amp;DT_1" LayerCode="00" Side="1" Method="0" AccountCode="15101" Description="" />
+  <Item Department="5" Key="11&amp;_3&amp;52&amp;DT_1" LayerCode="51" Side="1" Method="1" Description="" />
+  <Item Department="5" Key="12&amp;52&amp;DT_1" LayerCode="00" Side="1" Method="0" AccountCode="33101" Description="" />
+  <Item Department="5" Key="12&amp;52&amp;DT_1" LayerCode="51" Side="1" Method="2" Description="" />
+  <Item Department="5" Key="12&amp;_10&amp;52&amp;DT_1" LayerCode="00" Side="0" Method="0" AccountCode="32104" Description="" />
+  <Item Department="5" Key="12&amp;_12&amp;52&amp;DT_1" LayerCode="00" Side="0" Method="0" AccountCode="14102" Description="" />
+  <Item Department="5" Key="12&amp;_38&amp;52&amp;DT_1" LayerCode="00" Side="0" Method="0" AccountCode="11104" Description="" />
+  <Item Department="5" Key="12&amp;_4&amp;52&amp;DT_1" LayerCode="00" Side="0" Method="0" AccountCode="13101" Description="" />
+  <Item Department="5" Key="12&amp;_5&amp;52&amp;DT_1" LayerCode="00" Side="0" Method="0" AccountCode="31101" Description="" />
 </Pattern>

@@ -3,23 +3,23 @@
 <!--Web: www.sayanpardaz.com-->
 <Template>
   <ProceedingRoot>
-    <Proceeding Code="11" Title="دریافت" Location="0" BurIssuable="0" HasAccount="true" CalcRequired="false" IsEnable="true" Description="" />
-    <Proceeding Code="12" Title="پرداخت" Location="0" BurIssuable="0" HasAccount="true" CalcRequired="false" IsEnable="true" Description="" />
-    <Proceeding Code="16" Title="واگذار به صندوق" Location="0" BurIssuable="0" HasAccount="true" CalcRequired="false" IsEnable="true" Description="" />
-    <Proceeding Code="17" Title="واگذار به بانک" Location="1" BurIssuable="0" HasAccount="true" CalcRequired="false" IsEnable="true" Description="" />
-    <Proceeding Code="18" Title="عملیات چک ها" Location="3" BurIssuable="0" HasAccount="true" CalcRequired="false" IsEnable="true" Description="" />
-    <Proceeding Code="19" Title="صورت خلاصه تنخواه" Location="2" BurIssuable="0" HasAccount="true" CalcRequired="false" IsEnable="true" Description="" />
-    <Proceeding Code="20" Title="ثبت هزینه" Location="0" BurIssuable="0" HasAccount="true" CalcRequired="false" IsEnable="true" Description="" />
-    <Proceeding Code="21" Title="ثبت درآمد" Location="0" BurIssuable="0" HasAccount="true" CalcRequired="false" IsEnable="true" Description="" />
-    <Proceeding Code="38" Title="استقرار صندوق ها" Location="0" BurIssuable="0" HasAccount="true" CalcRequired="false" IsEnable="true" Description="" />
-    <Proceeding Code="39" Title="استقرار حساب های بانکی" Location="1" BurIssuable="0" HasAccount="true" CalcRequired="false" IsEnable="true" Description="" />
-    <Proceeding Code="40" Title="استقرار اشخاص" Location="3" BurIssuable="0" HasAccount="true" CalcRequired="false" IsEnable="true" Description="" />
-    <Proceeding Code="41" Title="تسویه فروش" Location="0" BurIssuable="2" HasAccount="true" CalcRequired="false" IsEnable="true" Description="" />
-    <Proceeding Code="42" Title="تسویه خرید" Location="0" BurIssuable="2" HasAccount="true" CalcRequired="false" IsEnable="true" Description="" />
-    <Proceeding Code="43" Title="تسویه مرجوعی فروش" Location="0" BurIssuable="2" HasAccount="true" CalcRequired="false" IsEnable="true" Description="" />
-    <Proceeding Code="44" Title="تسویه مرجوعی خرید" Location="0" BurIssuable="2" HasAccount="true" CalcRequired="false" IsEnable="true" Description="" />
-    <Proceeding Code="45" Title="پرداخت مساعده" Location="0" BurIssuable="6" HasAccount="true" CalcRequired="false" IsEnable="true" Description="" />
-    <Proceeding Code="46" Title="پرداخت وام" Location="0" BurIssuable="7" HasAccount="true" CalcRequired="false" IsEnable="true" Description="" />
+    <Proceeding Code="11" Title="دریافت" Location="0" BurIssuable="0" HasAccount="true" CalcRequired="false" CalcRequiredInReg="false" IsEnable="true" Description="" />
+    <Proceeding Code="12" Title="پرداخت" Location="0" BurIssuable="0" HasAccount="true" CalcRequired="false" CalcRequiredInReg="false" IsEnable="true" Description="" />
+    <Proceeding Code="16" Title="واگذار به صندوق" Location="0" BurIssuable="0" HasAccount="true" CalcRequired="false" CalcRequiredInReg="false" IsEnable="true" Description="" />
+    <Proceeding Code="17" Title="واگذار به بانک" Location="1" BurIssuable="0" HasAccount="true" CalcRequired="false" CalcRequiredInReg="false" IsEnable="true" Description="" />
+    <Proceeding Code="18" Title="عملیات چک ها" Location="3" BurIssuable="0" HasAccount="true" CalcRequired="false" CalcRequiredInReg="false" IsEnable="true" Description="" />
+    <Proceeding Code="19" Title="صورت خلاصه تنخواه" Location="2" BurIssuable="0" HasAccount="true" CalcRequired="false" CalcRequiredInReg="false" IsEnable="true" Description="" />
+    <Proceeding Code="20" Title="ثبت هزینه" Location="0" BurIssuable="0" HasAccount="true" CalcRequired="false" CalcRequiredInReg="false" IsEnable="true" Description="" />
+    <Proceeding Code="21" Title="ثبت درآمد" Location="0" BurIssuable="0" HasAccount="true" CalcRequired="false" CalcRequiredInReg="false" IsEnable="true" Description="" />
+    <Proceeding Code="38" Title="استقرار صندوق ها" Location="0" BurIssuable="0" HasAccount="true" CalcRequired="false" CalcRequiredInReg="false" IsEnable="true" Description="" />
+    <Proceeding Code="39" Title="استقرار حساب های بانکی" Location="1" BurIssuable="0" HasAccount="true" CalcRequired="false" CalcRequiredInReg="false" IsEnable="true" Description="" />
+    <Proceeding Code="40" Title="استقرار اشخاص" Location="3" BurIssuable="0" HasAccount="true" CalcRequired="false" CalcRequiredInReg="false" IsEnable="true" Description="" />
+    <Proceeding Code="41" Title="تسویه فروش" Location="0" BurIssuable="2" HasAccount="true" CalcRequired="false" CalcRequiredInReg="false" IsEnable="true" Description="" />
+    <Proceeding Code="42" Title="تسویه خرید" Location="0" BurIssuable="2" HasAccount="true" CalcRequired="false" CalcRequiredInReg="false" IsEnable="true" Description="" />
+    <Proceeding Code="43" Title="تسویه مرجوعی فروش" Location="0" BurIssuable="2" HasAccount="true" CalcRequired="false" CalcRequiredInReg="false" IsEnable="true" Description="" />
+    <Proceeding Code="44" Title="تسویه مرجوعی خرید" Location="0" BurIssuable="2" HasAccount="true" CalcRequired="false" CalcRequiredInReg="false" IsEnable="true" Description="" />
+    <Proceeding Code="45" Title="پرداخت مساعده" Location="0" BurIssuable="6" HasAccount="true" CalcRequired="false" CalcRequiredInReg="false" IsEnable="true" Description="" />
+    <Proceeding Code="46" Title="پرداخت وام" Location="0" BurIssuable="7" HasAccount="true" CalcRequired="false" CalcRequiredInReg="false" IsEnable="true" Description="" />
   </ProceedingRoot>
   <SubProceedingRoot>
     <SubProceeding Title="دریافت از مشتری" Code="1" ProceedingCode="11" IsEnable="true" />
@@ -62,60 +62,60 @@
     <SubProceeding Title="حساب شرکا" Code="9" ProceedingCode="40" IsEnable="true" />
   </SubProceedingRoot>
   <ParameterRoot>
-    <Parameter ProceedingCode="19" Title="عنوان هزینه" Type="20" IsDetail="true" IsNullable="false" IsReadOnly="false" Size="200" Arrange="1" EffectiveCode="0" HasAccount="false" Formula="" CalcRequired="false" FormulaCode="1" Description="" MasterKey="2" />
-    <Parameter ProceedingCode="20" Title="عنوان هزینه" Type="20" IsDetail="true" IsNullable="false" IsReadOnly="false" Size="200" Arrange="1" EffectiveCode="0" HasAccount="false" Formula="" CalcRequired="false" FormulaCode="2" Description="" MasterKey="2" />
-    <Parameter ProceedingCode="21" Title="عنوان درآمد" Type="20" IsDetail="true" IsNullable="false" IsReadOnly="false" Size="200" Arrange="1" EffectiveCode="0" HasAccount="false" Formula="" CalcRequired="false" FormulaCode="3" Description="" MasterKey="2" />
-    <Parameter ProceedingCode="40" Title="جزء" Type="20" IsDetail="false" IsNullable="false" IsReadOnly="false" Size="200" Arrange="101" EffectiveCode="0" HasAccount="false" Formula="" CalcRequired="false" FormulaCode="101" Description="" MasterKey="2" />
-    <Parameter ProceedingCode="12" Title="جزء" Type="20" IsDetail="false" IsNullable="false" IsReadOnly="false" Size="200" Arrange="102" EffectiveCode="0" HasAccount="false" Formula="" CalcRequired="false" FormulaCode="102" Description="" MasterKey="2" />
-    <Parameter ProceedingCode="11" Title="جزء" Type="20" IsDetail="false" IsNullable="false" IsReadOnly="false" Size="200" Arrange="103" EffectiveCode="0" HasAccount="false" Formula="" CalcRequired="false" FormulaCode="103" Description="" MasterKey="2" />
-    <Parameter ProceedingCode="46" Title="شخص" Type="10" IsDetail="false" IsNullable="false" IsReadOnly="false" Size="200" Arrange="104" EffectiveCode="0" HasAccount="false" CalcRequired="false" LayerCode="11" FormulaCode="104" MasterKey="1" />
-    <Parameter ProceedingCode="45" Title="پرسنل" Type="10" IsDetail="false" IsNullable="false" IsReadOnly="false" Size="200" Arrange="110" EffectiveCode="0" HasAccount="false" Formula="" CalcRequired="false" LayerCode="11" FormulaCode="110" Description="" MasterKey="1" />
-    <Parameter ProceedingCode="44" Title="شخص" Type="10" IsDetail="false" IsNullable="false" IsReadOnly="false" Size="200" Arrange="106" EffectiveCode="0" HasAccount="false" CalcRequired="false" LayerCode="11" FormulaCode="106" MasterKey="1" />
-    <Parameter ProceedingCode="43" Title="شخص" Type="10" IsDetail="false" IsNullable="false" IsReadOnly="false" Size="200" Arrange="107" EffectiveCode="0" HasAccount="false" CalcRequired="false" LayerCode="11" FormulaCode="107" MasterKey="1" />
-    <Parameter ProceedingCode="42" Title="شخص" Type="10" IsDetail="false" IsNullable="false" IsReadOnly="false" Size="200" Arrange="108" EffectiveCode="0" HasAccount="false" CalcRequired="false" LayerCode="11" FormulaCode="108" MasterKey="1" />
-    <Parameter ProceedingCode="41" Title="شخص" Type="10" IsDetail="false" IsNullable="false" IsReadOnly="false" Size="200" Arrange="109" EffectiveCode="0" HasAccount="false" CalcRequired="false" LayerCode="11" FormulaCode="109" MasterKey="1" />
-    <Parameter ProceedingCode="40" Title="شخص" Type="10" IsDetail="true" IsNullable="false" IsReadOnly="false" Size="200" Arrange="10" EffectiveCode="0" HasAccount="false" Formula="" CalcRequired="false" LayerCode="11" FormulaCode="10" Description="" MasterKey="1" />
-    <Parameter ProceedingCode="12" Title="شخص" Type="10" IsDetail="false" IsNullable="false" IsReadOnly="false" Size="200" Arrange="111" EffectiveCode="0" HasAccount="false" CalcRequired="false" LayerCode="11" FormulaCode="111" MasterKey="1" />
-    <Parameter ProceedingCode="11" Title="شخص" Type="10" IsDetail="false" IsNullable="false" IsReadOnly="false" Size="200" Arrange="112" EffectiveCode="0" HasAccount="false" CalcRequired="false" LayerCode="11" FormulaCode="112" MasterKey="1" />
-    <Parameter ProceedingCode="38" Title="صندوق" Type="15" IsDetail="false" IsNullable="false" IsReadOnly="false" Size="200" Arrange="119" EffectiveCode="0" HasAccount="false" CalcRequired="false" LayerCode="12" FormulaCode="119" MasterKey="12" />
-    <Parameter ProceedingCode="16" Title="صندوق گیرنده" Type="15" IsDetail="false" IsNullable="false" IsReadOnly="false" Size="200" Arrange="122" EffectiveCode="0" HasAccount="false" Formula="" CalcRequired="false" LayerCode="12" FormulaCode="122" Description="" MasterKey="12" />
-    <Parameter ProceedingCode="39" Title="بانک" Type="14" IsDetail="false" IsNullable="false" IsReadOnly="false" Size="200" Arrange="125" EffectiveCode="0" HasAccount="false" CalcRequired="false" LayerCode="13" FormulaCode="125" MasterKey="13" />
-    <Parameter ProceedingCode="17" Title="بانک گیرنده" Type="14" IsDetail="false" IsNullable="false" IsReadOnly="false" Size="200" Arrange="126" EffectiveCode="0" HasAccount="false" Formula="" CalcRequired="false" LayerCode="13" FormulaCode="126" Description="" MasterKey="13" />
-    <Parameter ProceedingCode="19" Title="تنخواه" Type="16" IsDetail="false" IsNullable="false" IsReadOnly="false" Size="200" Arrange="127" EffectiveCode="0" HasAccount="false" CalcRequired="false" LayerCode="53" FormulaCode="127" MasterKey="14" />
-    <Parameter ProceedingCode="46" Title="کد فرعی" Type="4" IsDetail="false" IsNullable="true" IsReadOnly="false" Size="200" Arrange="128" EffectiveCode="0" HasAccount="false" CalcRequired="false" FormulaCode="128" MasterKey="6" />
-    <Parameter ProceedingCode="45" Title="کد فرعی" Type="4" IsDetail="false" IsNullable="true" IsReadOnly="false" Size="200" Arrange="129" EffectiveCode="0" HasAccount="false" CalcRequired="false" FormulaCode="129" MasterKey="6" />
-    <Parameter ProceedingCode="44" Title="کد فرعی" Type="4" IsDetail="false" IsNullable="true" IsReadOnly="false" Size="200" Arrange="130" EffectiveCode="0" HasAccount="false" CalcRequired="false" FormulaCode="130" MasterKey="6" />
-    <Parameter ProceedingCode="43" Title="کد فرعی" Type="4" IsDetail="false" IsNullable="true" IsReadOnly="false" Size="200" Arrange="131" EffectiveCode="0" HasAccount="false" CalcRequired="false" FormulaCode="131" MasterKey="6" />
-    <Parameter ProceedingCode="42" Title="کد فرعی" Type="4" IsDetail="false" IsNullable="true" IsReadOnly="false" Size="200" Arrange="132" EffectiveCode="0" HasAccount="false" CalcRequired="false" FormulaCode="132" MasterKey="6" />
-    <Parameter ProceedingCode="41" Title="کد فرعی" Type="4" IsDetail="false" IsNullable="true" IsReadOnly="false" Size="200" Arrange="133" EffectiveCode="0" HasAccount="false" CalcRequired="false" FormulaCode="133" MasterKey="6" />
-    <Parameter ProceedingCode="40" Title="کد فرعی" Type="4" IsDetail="false" IsNullable="true" IsReadOnly="false" Size="200" Arrange="134" EffectiveCode="0" HasAccount="false" CalcRequired="false" FormulaCode="134" MasterKey="6" />
-    <Parameter ProceedingCode="39" Title="کد فرعی" Type="4" IsDetail="false" IsNullable="true" IsReadOnly="false" Size="200" Arrange="135" EffectiveCode="0" HasAccount="false" CalcRequired="false" FormulaCode="135" MasterKey="6" />
-    <Parameter ProceedingCode="38" Title="کد فرعی" Type="4" IsDetail="false" IsNullable="true" IsReadOnly="false" Size="200" Arrange="136" EffectiveCode="0" HasAccount="false" CalcRequired="false" FormulaCode="136" MasterKey="6" />
-    <Parameter ProceedingCode="21" Title="کد فرعی" Type="4" IsDetail="false" IsNullable="true" IsReadOnly="false" Size="200" Arrange="137" EffectiveCode="0" HasAccount="false" CalcRequired="false" FormulaCode="137" MasterKey="6" />
-    <Parameter ProceedingCode="20" Title="کد فرعی" Type="4" IsDetail="false" IsNullable="true" IsReadOnly="false" Size="200" Arrange="138" EffectiveCode="0" HasAccount="false" CalcRequired="false" FormulaCode="138" MasterKey="6" />
-    <Parameter ProceedingCode="19" Title="کد فرعی" Type="4" IsDetail="false" IsNullable="true" IsReadOnly="false" Size="200" Arrange="139" EffectiveCode="0" HasAccount="false" CalcRequired="false" FormulaCode="139" MasterKey="6" />
-    <Parameter ProceedingCode="18" Title="کد فرعی" Type="4" IsDetail="false" IsNullable="true" IsReadOnly="false" Size="200" Arrange="140" EffectiveCode="0" HasAccount="false" CalcRequired="false" FormulaCode="140" MasterKey="6" />
-    <Parameter ProceedingCode="17" Title="کد فرعی" Type="4" IsDetail="false" IsNullable="true" IsReadOnly="false" Size="200" Arrange="141" EffectiveCode="0" HasAccount="false" CalcRequired="false" FormulaCode="141" MasterKey="6" />
-    <Parameter ProceedingCode="16" Title="کد فرعی" Type="4" IsDetail="false" IsNullable="true" IsReadOnly="false" Size="200" Arrange="142" EffectiveCode="0" HasAccount="false" CalcRequired="false" FormulaCode="142" MasterKey="6" />
-    <Parameter ProceedingCode="12" Title="کد فرعی" Type="4" IsDetail="false" IsNullable="true" IsReadOnly="false" Size="200" Arrange="143" EffectiveCode="0" HasAccount="false" CalcRequired="false" FormulaCode="143" MasterKey="6" />
-    <Parameter ProceedingCode="11" Title="کد فرعی" Type="4" IsDetail="false" IsNullable="true" IsReadOnly="false" Size="200" Arrange="144" EffectiveCode="0" HasAccount="false" CalcRequired="false" FormulaCode="144" MasterKey="6" />
-    <Parameter ProceedingCode="46" Title="توضیحات" Type="6" IsDetail="false" IsNullable="true" IsReadOnly="false" Size="200" Arrange="145" EffectiveCode="0" HasAccount="false" CalcRequired="false" FormulaCode="145" MasterKey="7" />
-    <Parameter ProceedingCode="45" Title="توضیحات" Type="6" IsDetail="false" IsNullable="true" IsReadOnly="false" Size="200" Arrange="146" EffectiveCode="0" HasAccount="false" CalcRequired="false" FormulaCode="146" MasterKey="7" />
-    <Parameter ProceedingCode="44" Title="توضیحات" Type="6" IsDetail="false" IsNullable="true" IsReadOnly="false" Size="200" Arrange="147" EffectiveCode="0" HasAccount="false" CalcRequired="false" FormulaCode="147" MasterKey="7" />
-    <Parameter ProceedingCode="43" Title="توضیحات" Type="6" IsDetail="false" IsNullable="true" IsReadOnly="false" Size="200" Arrange="148" EffectiveCode="0" HasAccount="false" CalcRequired="false" FormulaCode="148" MasterKey="7" />
-    <Parameter ProceedingCode="42" Title="توضیحات" Type="6" IsDetail="false" IsNullable="true" IsReadOnly="false" Size="200" Arrange="149" EffectiveCode="0" HasAccount="false" CalcRequired="false" FormulaCode="149" MasterKey="7" />
-    <Parameter ProceedingCode="41" Title="توضیحات" Type="6" IsDetail="false" IsNullable="true" IsReadOnly="false" Size="200" Arrange="150" EffectiveCode="0" HasAccount="false" CalcRequired="false" FormulaCode="150" MasterKey="7" />
-    <Parameter ProceedingCode="40" Title="توضیحات" Type="6" IsDetail="false" IsNullable="true" IsReadOnly="false" Size="200" Arrange="151" EffectiveCode="0" HasAccount="false" CalcRequired="false" FormulaCode="151" MasterKey="7" />
-    <Parameter ProceedingCode="39" Title="توضیحات" Type="6" IsDetail="false" IsNullable="true" IsReadOnly="false" Size="200" Arrange="152" EffectiveCode="0" HasAccount="false" CalcRequired="false" FormulaCode="152" MasterKey="7" />
-    <Parameter ProceedingCode="38" Title="توضیحات" Type="6" IsDetail="false" IsNullable="true" IsReadOnly="false" Size="200" Arrange="153" EffectiveCode="0" HasAccount="false" CalcRequired="false" FormulaCode="153" MasterKey="7" />
-    <Parameter ProceedingCode="21" Title="توضیحات" Type="6" IsDetail="false" IsNullable="true" IsReadOnly="false" Size="200" Arrange="154" EffectiveCode="0" HasAccount="false" CalcRequired="false" FormulaCode="154" MasterKey="7" />
-    <Parameter ProceedingCode="20" Title="توضیحات" Type="6" IsDetail="false" IsNullable="true" IsReadOnly="false" Size="200" Arrange="155" EffectiveCode="0" HasAccount="false" CalcRequired="false" FormulaCode="155" MasterKey="7" />
-    <Parameter ProceedingCode="19" Title="توضیحات" Type="6" IsDetail="false" IsNullable="true" IsReadOnly="false" Size="200" Arrange="156" EffectiveCode="0" HasAccount="false" CalcRequired="false" FormulaCode="156" MasterKey="7" />
-    <Parameter ProceedingCode="18" Title="توضیحات" Type="6" IsDetail="false" IsNullable="true" IsReadOnly="false" Size="200" Arrange="157" EffectiveCode="0" HasAccount="false" CalcRequired="false" FormulaCode="157" MasterKey="7" />
-    <Parameter ProceedingCode="17" Title="توضیحات" Type="6" IsDetail="false" IsNullable="true" IsReadOnly="false" Size="200" Arrange="158" EffectiveCode="0" HasAccount="false" CalcRequired="false" FormulaCode="158" MasterKey="7" />
-    <Parameter ProceedingCode="16" Title="توضیحات" Type="6" IsDetail="false" IsNullable="true" IsReadOnly="false" Size="200" Arrange="159" EffectiveCode="0" HasAccount="false" CalcRequired="false" FormulaCode="159" MasterKey="7" />
-    <Parameter ProceedingCode="12" Title="توضیحات" Type="6" IsDetail="false" IsNullable="true" IsReadOnly="false" Size="200" Arrange="160" EffectiveCode="0" HasAccount="false" CalcRequired="false" FormulaCode="160" MasterKey="7" />
-    <Parameter ProceedingCode="11" Title="توضیحات" Type="6" IsDetail="false" IsNullable="true" IsReadOnly="false" Size="200" Arrange="161" EffectiveCode="0" HasAccount="false" CalcRequired="false" FormulaCode="161" MasterKey="7" />
+    <Parameter ProceedingCode="19" Title="عنوان هزینه" Type="20" IsDetail="true" IsNullable="false" IsReadOnly="false" Size="200" Arrange="1" EffectiveCode="0" HasAccount="false" Formula="" CalcRequired="false" CalcRequiredInReg="false" FormulaCode="1" Description="" MasterKey="2" />
+    <Parameter ProceedingCode="20" Title="عنوان هزینه" Type="20" IsDetail="true" IsNullable="false" IsReadOnly="false" Size="200" Arrange="1" EffectiveCode="0" HasAccount="false" Formula="" CalcRequired="false" CalcRequiredInReg="false" FormulaCode="2" Description="" MasterKey="2" />
+    <Parameter ProceedingCode="21" Title="عنوان درآمد" Type="20" IsDetail="true" IsNullable="false" IsReadOnly="false" Size="200" Arrange="1" EffectiveCode="0" HasAccount="false" Formula="" CalcRequired="false" CalcRequiredInReg="false" FormulaCode="3" Description="" MasterKey="2" />
+    <Parameter ProceedingCode="40" Title="جزء" Type="20" IsDetail="false" IsNullable="false" IsReadOnly="false" Size="200" Arrange="101" EffectiveCode="0" HasAccount="false" Formula="" CalcRequired="false" CalcRequiredInReg="false" FormulaCode="101" Description="" MasterKey="2" />
+    <Parameter ProceedingCode="12" Title="جزء" Type="20" IsDetail="false" IsNullable="false" IsReadOnly="false" Size="200" Arrange="102" EffectiveCode="0" HasAccount="false" Formula="" CalcRequired="false" CalcRequiredInReg="false" FormulaCode="102" Description="" MasterKey="2" />
+    <Parameter ProceedingCode="11" Title="جزء" Type="20" IsDetail="false" IsNullable="false" IsReadOnly="false" Size="200" Arrange="103" EffectiveCode="0" HasAccount="false" Formula="" CalcRequired="false" CalcRequiredInReg="false" FormulaCode="103" Description="" MasterKey="2" />
+    <Parameter ProceedingCode="46" Title="شخص" Type="10" IsDetail="false" IsNullable="false" IsReadOnly="false" Size="200" Arrange="104" EffectiveCode="0" HasAccount="false" CalcRequired="false" CalcRequiredInReg="false" LayerCode="11" FormulaCode="104" MasterKey="1" />
+    <Parameter ProceedingCode="45" Title="پرسنل" Type="10" IsDetail="false" IsNullable="false" IsReadOnly="false" Size="200" Arrange="110" EffectiveCode="0" HasAccount="false" Formula="" CalcRequired="false" CalcRequiredInReg="false" LayerCode="11" FormulaCode="110" Description="" MasterKey="1" />
+    <Parameter ProceedingCode="44" Title="شخص" Type="10" IsDetail="false" IsNullable="false" IsReadOnly="false" Size="200" Arrange="106" EffectiveCode="0" HasAccount="false" CalcRequired="false" CalcRequiredInReg="false" LayerCode="11" FormulaCode="106" MasterKey="1" />
+    <Parameter ProceedingCode="43" Title="شخص" Type="10" IsDetail="false" IsNullable="false" IsReadOnly="false" Size="200" Arrange="107" EffectiveCode="0" HasAccount="false" CalcRequired="false" CalcRequiredInReg="false" LayerCode="11" FormulaCode="107" MasterKey="1" />
+    <Parameter ProceedingCode="42" Title="شخص" Type="10" IsDetail="false" IsNullable="false" IsReadOnly="false" Size="200" Arrange="108" EffectiveCode="0" HasAccount="false" CalcRequired="false" CalcRequiredInReg="false" LayerCode="11" FormulaCode="108" MasterKey="1" />
+    <Parameter ProceedingCode="41" Title="شخص" Type="10" IsDetail="false" IsNullable="false" IsReadOnly="false" Size="200" Arrange="109" EffectiveCode="0" HasAccount="false" CalcRequired="false" CalcRequiredInReg="false" LayerCode="11" FormulaCode="109" MasterKey="1" />
+    <Parameter ProceedingCode="40" Title="شخص" Type="10" IsDetail="true" IsNullable="false" IsReadOnly="false" Size="200" Arrange="10" EffectiveCode="0" HasAccount="false" Formula="" CalcRequired="false" CalcRequiredInReg="false" LayerCode="11" FormulaCode="10" Description="" MasterKey="1" />
+    <Parameter ProceedingCode="12" Title="شخص" Type="10" IsDetail="false" IsNullable="false" IsReadOnly="false" Size="200" Arrange="111" EffectiveCode="0" HasAccount="false" CalcRequired="false" CalcRequiredInReg="false" LayerCode="11" FormulaCode="111" MasterKey="1" />
+    <Parameter ProceedingCode="11" Title="شخص" Type="10" IsDetail="false" IsNullable="false" IsReadOnly="false" Size="200" Arrange="112" EffectiveCode="0" HasAccount="false" CalcRequired="false" CalcRequiredInReg="false" LayerCode="11" FormulaCode="112" MasterKey="1" />
+    <Parameter ProceedingCode="38" Title="صندوق" Type="15" IsDetail="false" IsNullable="false" IsReadOnly="false" Size="200" Arrange="119" EffectiveCode="0" HasAccount="false" CalcRequired="false" CalcRequiredInReg="false" LayerCode="12" FormulaCode="119" MasterKey="12" />
+    <Parameter ProceedingCode="16" Title="صندوق گیرنده" Type="15" IsDetail="false" IsNullable="false" IsReadOnly="false" Size="200" Arrange="122" EffectiveCode="0" HasAccount="false" Formula="" CalcRequired="false" CalcRequiredInReg="false" LayerCode="12" FormulaCode="122" Description="" MasterKey="12" />
+    <Parameter ProceedingCode="39" Title="بانک" Type="14" IsDetail="false" IsNullable="false" IsReadOnly="false" Size="200" Arrange="125" EffectiveCode="0" HasAccount="false" CalcRequired="false" CalcRequiredInReg="false" LayerCode="13" FormulaCode="125" MasterKey="13" />
+    <Parameter ProceedingCode="17" Title="بانک گیرنده" Type="14" IsDetail="false" IsNullable="false" IsReadOnly="false" Size="200" Arrange="126" EffectiveCode="0" HasAccount="false" Formula="" CalcRequired="false" CalcRequiredInReg="false" LayerCode="13" FormulaCode="126" Description="" MasterKey="13" />
+    <Parameter ProceedingCode="19" Title="تنخواه" Type="16" IsDetail="false" IsNullable="false" IsReadOnly="false" Size="200" Arrange="127" EffectiveCode="0" HasAccount="false" CalcRequired="false" CalcRequiredInReg="false" LayerCode="53" FormulaCode="127" MasterKey="14" />
+    <Parameter ProceedingCode="46" Title="کد فرعی" Type="4" IsDetail="false" IsNullable="true" IsReadOnly="false" Size="200" Arrange="128" EffectiveCode="0" HasAccount="false" CalcRequired="false" CalcRequiredInReg="false" FormulaCode="128" MasterKey="6" />
+    <Parameter ProceedingCode="45" Title="کد فرعی" Type="4" IsDetail="false" IsNullable="true" IsReadOnly="false" Size="200" Arrange="129" EffectiveCode="0" HasAccount="false" CalcRequired="false" CalcRequiredInReg="false" FormulaCode="129" MasterKey="6" />
+    <Parameter ProceedingCode="44" Title="کد فرعی" Type="4" IsDetail="false" IsNullable="true" IsReadOnly="false" Size="200" Arrange="130" EffectiveCode="0" HasAccount="false" CalcRequired="false" CalcRequiredInReg="false" FormulaCode="130" MasterKey="6" />
+    <Parameter ProceedingCode="43" Title="کد فرعی" Type="4" IsDetail="false" IsNullable="true" IsReadOnly="false" Size="200" Arrange="131" EffectiveCode="0" HasAccount="false" CalcRequired="false" CalcRequiredInReg="false" FormulaCode="131" MasterKey="6" />
+    <Parameter ProceedingCode="42" Title="کد فرعی" Type="4" IsDetail="false" IsNullable="true" IsReadOnly="false" Size="200" Arrange="132" EffectiveCode="0" HasAccount="false" CalcRequired="false" CalcRequiredInReg="false" FormulaCode="132" MasterKey="6" />
+    <Parameter ProceedingCode="41" Title="کد فرعی" Type="4" IsDetail="false" IsNullable="true" IsReadOnly="false" Size="200" Arrange="133" EffectiveCode="0" HasAccount="false" CalcRequired="false" CalcRequiredInReg="false" FormulaCode="133" MasterKey="6" />
+    <Parameter ProceedingCode="40" Title="کد فرعی" Type="4" IsDetail="false" IsNullable="true" IsReadOnly="false" Size="200" Arrange="134" EffectiveCode="0" HasAccount="false" CalcRequired="false" CalcRequiredInReg="false" FormulaCode="134" MasterKey="6" />
+    <Parameter ProceedingCode="39" Title="کد فرعی" Type="4" IsDetail="false" IsNullable="true" IsReadOnly="false" Size="200" Arrange="135" EffectiveCode="0" HasAccount="false" CalcRequired="false" CalcRequiredInReg="false" FormulaCode="135" MasterKey="6" />
+    <Parameter ProceedingCode="38" Title="کد فرعی" Type="4" IsDetail="false" IsNullable="true" IsReadOnly="false" Size="200" Arrange="136" EffectiveCode="0" HasAccount="false" CalcRequired="false" CalcRequiredInReg="false" FormulaCode="136" MasterKey="6" />
+    <Parameter ProceedingCode="21" Title="کد فرعی" Type="4" IsDetail="false" IsNullable="true" IsReadOnly="false" Size="200" Arrange="137" EffectiveCode="0" HasAccount="false" CalcRequired="false" CalcRequiredInReg="false" FormulaCode="137" MasterKey="6" />
+    <Parameter ProceedingCode="20" Title="کد فرعی" Type="4" IsDetail="false" IsNullable="true" IsReadOnly="false" Size="200" Arrange="138" EffectiveCode="0" HasAccount="false" CalcRequired="false" CalcRequiredInReg="false" FormulaCode="138" MasterKey="6" />
+    <Parameter ProceedingCode="19" Title="کد فرعی" Type="4" IsDetail="false" IsNullable="true" IsReadOnly="false" Size="200" Arrange="139" EffectiveCode="0" HasAccount="false" CalcRequired="false" CalcRequiredInReg="false" FormulaCode="139" MasterKey="6" />
+    <Parameter ProceedingCode="18" Title="کد فرعی" Type="4" IsDetail="false" IsNullable="true" IsReadOnly="false" Size="200" Arrange="140" EffectiveCode="0" HasAccount="false" CalcRequired="false" CalcRequiredInReg="false" FormulaCode="140" MasterKey="6" />
+    <Parameter ProceedingCode="17" Title="کد فرعی" Type="4" IsDetail="false" IsNullable="true" IsReadOnly="false" Size="200" Arrange="141" EffectiveCode="0" HasAccount="false" CalcRequired="false" CalcRequiredInReg="false" FormulaCode="141" MasterKey="6" />
+    <Parameter ProceedingCode="16" Title="کد فرعی" Type="4" IsDetail="false" IsNullable="true" IsReadOnly="false" Size="200" Arrange="142" EffectiveCode="0" HasAccount="false" CalcRequired="false" CalcRequiredInReg="false" FormulaCode="142" MasterKey="6" />
+    <Parameter ProceedingCode="12" Title="کد فرعی" Type="4" IsDetail="false" IsNullable="true" IsReadOnly="false" Size="200" Arrange="143" EffectiveCode="0" HasAccount="false" CalcRequired="false" CalcRequiredInReg="false" FormulaCode="143" MasterKey="6" />
+    <Parameter ProceedingCode="11" Title="کد فرعی" Type="4" IsDetail="false" IsNullable="true" IsReadOnly="false" Size="200" Arrange="144" EffectiveCode="0" HasAccount="false" CalcRequired="false" CalcRequiredInReg="false" FormulaCode="144" MasterKey="6" />
+    <Parameter ProceedingCode="46" Title="توضیحات" Type="6" IsDetail="false" IsNullable="true" IsReadOnly="false" Size="200" Arrange="145" EffectiveCode="0" HasAccount="false" CalcRequired="false" CalcRequiredInReg="false" FormulaCode="145" MasterKey="7" />
+    <Parameter ProceedingCode="45" Title="توضیحات" Type="6" IsDetail="false" IsNullable="true" IsReadOnly="false" Size="200" Arrange="146" EffectiveCode="0" HasAccount="false" CalcRequired="false" CalcRequiredInReg="false" FormulaCode="146" MasterKey="7" />
+    <Parameter ProceedingCode="44" Title="توضیحات" Type="6" IsDetail="false" IsNullable="true" IsReadOnly="false" Size="200" Arrange="147" EffectiveCode="0" HasAccount="false" CalcRequired="false" CalcRequiredInReg="false" FormulaCode="147" MasterKey="7" />
+    <Parameter ProceedingCode="43" Title="توضیحات" Type="6" IsDetail="false" IsNullable="true" IsReadOnly="false" Size="200" Arrange="148" EffectiveCode="0" HasAccount="false" CalcRequired="false" CalcRequiredInReg="false" FormulaCode="148" MasterKey="7" />
+    <Parameter ProceedingCode="42" Title="توضیحات" Type="6" IsDetail="false" IsNullable="true" IsReadOnly="false" Size="200" Arrange="149" EffectiveCode="0" HasAccount="false" CalcRequired="false" CalcRequiredInReg="false" FormulaCode="149" MasterKey="7" />
+    <Parameter ProceedingCode="41" Title="توضیحات" Type="6" IsDetail="false" IsNullable="true" IsReadOnly="false" Size="200" Arrange="150" EffectiveCode="0" HasAccount="false" CalcRequired="false" CalcRequiredInReg="false" FormulaCode="150" MasterKey="7" />
+    <Parameter ProceedingCode="40" Title="توضیحات" Type="6" IsDetail="false" IsNullable="true" IsReadOnly="false" Size="200" Arrange="151" EffectiveCode="0" HasAccount="false" CalcRequired="false" CalcRequiredInReg="false" FormulaCode="151" MasterKey="7" />
+    <Parameter ProceedingCode="39" Title="توضیحات" Type="6" IsDetail="false" IsNullable="true" IsReadOnly="false" Size="200" Arrange="152" EffectiveCode="0" HasAccount="false" CalcRequired="false" CalcRequiredInReg="false" FormulaCode="152" MasterKey="7" />
+    <Parameter ProceedingCode="38" Title="توضیحات" Type="6" IsDetail="false" IsNullable="true" IsReadOnly="false" Size="200" Arrange="153" EffectiveCode="0" HasAccount="false" CalcRequired="false" CalcRequiredInReg="false" FormulaCode="153" MasterKey="7" />
+    <Parameter ProceedingCode="21" Title="توضیحات" Type="6" IsDetail="false" IsNullable="true" IsReadOnly="false" Size="200" Arrange="154" EffectiveCode="0" HasAccount="false" CalcRequired="false" CalcRequiredInReg="false" FormulaCode="154" MasterKey="7" />
+    <Parameter ProceedingCode="20" Title="توضیحات" Type="6" IsDetail="false" IsNullable="true" IsReadOnly="false" Size="200" Arrange="155" EffectiveCode="0" HasAccount="false" CalcRequired="false" CalcRequiredInReg="false" FormulaCode="155" MasterKey="7" />
+    <Parameter ProceedingCode="19" Title="توضیحات" Type="6" IsDetail="false" IsNullable="true" IsReadOnly="false" Size="200" Arrange="156" EffectiveCode="0" HasAccount="false" CalcRequired="false" CalcRequiredInReg="false" FormulaCode="156" MasterKey="7" />
+    <Parameter ProceedingCode="18" Title="توضیحات" Type="6" IsDetail="false" IsNullable="true" IsReadOnly="false" Size="200" Arrange="157" EffectiveCode="0" HasAccount="false" CalcRequired="false" CalcRequiredInReg="false" FormulaCode="157" MasterKey="7" />
+    <Parameter ProceedingCode="17" Title="توضیحات" Type="6" IsDetail="false" IsNullable="true" IsReadOnly="false" Size="200" Arrange="158" EffectiveCode="0" HasAccount="false" CalcRequired="false" CalcRequiredInReg="false" FormulaCode="158" MasterKey="7" />
+    <Parameter ProceedingCode="16" Title="توضیحات" Type="6" IsDetail="false" IsNullable="true" IsReadOnly="false" Size="200" Arrange="159" EffectiveCode="0" HasAccount="false" CalcRequired="false" CalcRequiredInReg="false" FormulaCode="159" MasterKey="7" />
+    <Parameter ProceedingCode="12" Title="توضیحات" Type="6" IsDetail="false" IsNullable="true" IsReadOnly="false" Size="200" Arrange="160" EffectiveCode="0" HasAccount="false" CalcRequired="false" CalcRequiredInReg="false" FormulaCode="160" MasterKey="7" />
+    <Parameter ProceedingCode="11" Title="توضیحات" Type="6" IsDetail="false" IsNullable="true" IsReadOnly="false" Size="200" Arrange="161" EffectiveCode="0" HasAccount="false" CalcRequired="false" CalcRequiredInReg="false" FormulaCode="161" MasterKey="7" />
   </ParameterRoot>
   <FactorRoot>
     <Factor Code="11" Title="دریافت وجه نقد" Type="0" IsEnable="true" Description="" />
@@ -150,6 +150,8 @@
     <Factor Code="40" Title="بستانکاری" Type="0" IsEnable="true" Description="" />
     <Factor Code="50" Title="چک دریافتنی" Type="1" IsEnable="true" Description="" />
     <Factor Code="51" Title="چک پرداختنی" Type="12" IsEnable="true" Description="" />
+    <Factor Code="52" Title="جاری شرکا" Type="0" Formula="" IsEnable="true" Description="" />
+    <Factor Code="53" Title="تنخواه دار" Type="0" Formula="" IsEnable="true" Description="" />
   </FactorRoot>
   <DetailRoot>
     <Detail FactorCode="21" Title="صندوق دهنده" Type="15" IsNullable="false" Arrange="1" LayerCode="12" Description="" MasterKey="0" />
@@ -167,6 +169,7 @@
     <Detail FactorCode="14" Title="صندوق" Type="15" IsNullable="false" Arrange="1" LayerCode="12" Description="" MasterKey="12" />
     <Detail FactorCode="11" Title="صندوق" Type="15" IsNullable="false" Arrange="1" Description="" MasterKey="12" />
     <Detail FactorCode="12" Title="صندوق" Type="15" IsNullable="false" Arrange="1" Description="" MasterKey="12" />
+    <Detail FactorCode="52" Title="شخص" Type="10" IsNullable="false" Arrange="1" LayerCode="51" Description="" MasterKey="0" />
   </DetailRoot>
   <RelationshipRoot>
     <Relationship ProceedingCode="11" FactorCode="11" />
@@ -174,12 +177,14 @@
     <Relationship ProceedingCode="11" FactorCode="13" />
     <Relationship ProceedingCode="11" FactorCode="19" />
     <Relationship ProceedingCode="11" FactorCode="36" />
+    <Relationship ProceedingCode="11" FactorCode="52" />
     <Relationship ProceedingCode="12" FactorCode="14" />
     <Relationship ProceedingCode="12" FactorCode="15" />
     <Relationship ProceedingCode="12" FactorCode="16" />
     <Relationship ProceedingCode="12" FactorCode="17" />
     <Relationship ProceedingCode="12" FactorCode="18" />
     <Relationship ProceedingCode="12" FactorCode="20" />
+    <Relationship ProceedingCode="12" FactorCode="52" />
     <Relationship ProceedingCode="16" FactorCode="21" />
     <Relationship ProceedingCode="16" FactorCode="22" />
     <Relationship ProceedingCode="16" FactorCode="23" />
@@ -196,7 +201,7 @@
     <Relationship ProceedingCode="18" FactorCode="32" />
     <Relationship ProceedingCode="18" FactorCode="33" />
     <Relationship ProceedingCode="18" FactorCode="34" />
-    <Relationship ProceedingCode="19" FactorCode="14" />
+    <Relationship ProceedingCode="19" FactorCode="53" />
     <Relationship ProceedingCode="20" FactorCode="14" />
     <Relationship ProceedingCode="20" FactorCode="15" />
     <Relationship ProceedingCode="20" FactorCode="18" />
