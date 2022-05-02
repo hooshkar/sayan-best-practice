@@ -3,12 +3,14 @@
 <!--Web: www.sayanpardaz.com-->
 <Template>
   <ProceedingRoot>
-    <Proceeding Code="50" Title="دریافت سفارش" EffectiveCode="0" CanBaseLess="true" BaseControl="0" Formula="" CalcRequired="false" HasAccount="false" PeriodVoucherType="0" HasPrice="false" SystemCode="3" IsAbsolute="false" PaymentMode="NoSettling" IsEnable="true" Description="" />
+    <Proceeding Code="50" Title="دریافت سفارش" EffectiveCode="0" CanBaseLess="true" BaseControl="0" Formula="" CalcRequired="false" CalcRequiredInReg="false" HasAccount="false" PeriodVoucherType="0" HasPrice="false" SystemCode="3" IsAbsolute="false" PaymentMode="NoSettling" IsEnable="true" Description="" />
   </ProceedingRoot>
   <ParameterRoot>
-    <Parameter ProceedingCode="50" Title="کد فرعی" IsDetail="false" Type="4" IsNullable="true" IsReadOnly="false" HasAccount="false" Size="200" Arrange="102" Formula="" CalcRequired="false" FormulaCode="102" EffectiveCode="0" PayableCode="0" Description="" MasterKey="6" />
-    <Parameter ProceedingCode="50" Title="توضیحات" IsDetail="false" Type="4" IsNullable="true" IsReadOnly="false" HasAccount="false" Size="200" Arrange="103" Formula="" CalcRequired="false" FormulaCode="103" EffectiveCode="0" PayableCode="0" Description="" MasterKey="7" />
-    <Parameter ProceedingCode="50" Title="شخص" IsDetail="false" Type="10" IsNullable="false" IsReadOnly="false" HasAccount="false" Size="200" Arrange="101" Formula="" CalcRequired="false" FormulaCode="101" EffectiveCode="0" PayableCode="0" Description="" MasterKey="1" />
+    <Parameter ProceedingCode="50" Title="شخص" IsDetail="false" Type="10" IsNullable="false" IsReadOnly="false" HasAccount="false" Size="200" Arrange="101" Formula="" CalcRequired="false" CalcRequiredInReg="false" FormulaCode="101" EffectiveCode="0" PayableCode="0" Description="" MasterKey="1" />
+    <Parameter ProceedingCode="50" Title="کد فرعی" IsDetail="false" Type="4" IsNullable="true" IsReadOnly="false" HasAccount="false" Size="200" Arrange="105" Formula="" CalcRequired="false" CalcRequiredInReg="false" FormulaCode="105" EffectiveCode="0" PayableCode="0" Description="" MasterKey="6" />
+    <Parameter ProceedingCode="50" Title="توضیحات" IsDetail="false" Type="4" IsNullable="true" IsReadOnly="false" HasAccount="false" Size="200" Arrange="110" Formula="" CalcRequired="false" CalcRequiredInReg="false" FormulaCode="110" EffectiveCode="0" PayableCode="0" Description="" MasterKey="7" />
+    <Parameter ProceedingCode="50" Title="تخفیف" IsDetail="true" Type="9" IsNullable="true" IsReadOnly="false" HasAccount="true" Size="100" Arrange="301" Formula="" CalcRequired="false" CalcRequiredInReg="false" FormulaCode="301" EffectiveCode="-1" PayableCode="-1" Description="" MasterKey="0" />
+    <Parameter ProceedingCode="50" Title="ارزش افزوده" IsDetail="true" Type="9" IsNullable="true" IsReadOnly="false" HasAccount="true" Size="100" Arrange="305" Formula="" CalcRequired="false" CalcRequiredInReg="false" FormulaCode="305" EffectiveCode="0" PayableCode="1" Description="" MasterKey="0" />
   </ParameterRoot>
   <BaseRelationshipRoot />
 </Template>
