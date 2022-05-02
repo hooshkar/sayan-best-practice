@@ -140,7 +140,7 @@
       <Subsidiary GroupCode="3" LedgerCode="2" Code="102" Title="سپرده های پرداختنی" Nature="1" IsEnable="true" Description="" />
       <Subsidiary GroupCode="3" LedgerCode="2" Code="103" Title="اسناد پرداختنی کوتاه مدت غیر تجاری" Nature="1" IsEnable="true" Description="" />
       <Subsidiary GroupCode="3" LedgerCode="2" Code="104" Title="خالص حقوق و مزایای پرداختنی" Nature="1" IsEnable="true" />
-      <Subsidiary GroupCode="3" LedgerCode="2" Code="105" Title="خالص عیدی و پاداش پرداختنی" Nature="1" IsEnable="true" />
+      <Subsidiary GroupCode="3" LedgerCode="2" Code="105" Title="خالص سنوات و عیدی و پاداش پرداختنی" Nature="1" IsEnable="true" Description="" />
       <Subsidiary GroupCode="3" LedgerCode="2" Code="106" Title="بدهی به کارکنان" Nature="1" IsEnable="true" Description="" />
       <Subsidiary GroupCode="3" LedgerCode="2" Code="107" Title="مالیاتهای تکلیفی پرداختنی" Nature="1" IsEnable="true" Description="" />
       <Subsidiary GroupCode="3" LedgerCode="2" Code="108" Title="حق بیمه های پرداختنی" Nature="1" IsEnable="true" Description="" />
@@ -148,12 +148,13 @@
       <Subsidiary GroupCode="3" LedgerCode="2" Code="110" Title="ودایع پرداختنی" Nature="1" IsEnable="true" />
       <Subsidiary GroupCode="3" LedgerCode="2" Code="111" Title="ذخیره هزینه های معوق" Nature="1" IsEnable="true" />
       <Subsidiary GroupCode="3" LedgerCode="2" Code="112" Title="ذخیره باز خرید مرخصی کارکنان" Nature="1" IsEnable="true" />
-      <Subsidiary GroupCode="3" LedgerCode="2" Code="113" Title="افزایش سرمایه" Nature="1" IsEnable="true" />
+      <Subsidiary GroupCode="3" LedgerCode="2" Code="113" Title="ذخیره عیدی و پاداش سالانه" Nature="1" IsEnable="true" Description="" />
       <Subsidiary GroupCode="3" LedgerCode="2" Code="114" Title="سایر حسابهای پرداختنی متفرقه" Nature="1" IsEnable="true" />
       <Subsidiary GroupCode="3" LedgerCode="2" Code="115" Title="مالیات ارزش افزوده - بدهی" Nature="1" IsEnable="true" Description="" />
       <Subsidiary GroupCode="3" LedgerCode="2" Code="116" Title="تفاوت ریال حقوق کارکنان (بدهی)" Nature="1" IsEnable="true" Description="" />
       <Subsidiary GroupCode="3" LedgerCode="2" Code="117" Title="مالیات حقوق پرداختنی" Nature="1" IsEnable="true" Description="" />
       <Subsidiary GroupCode="3" LedgerCode="2" Code="118" Title="واریزی نامشخص" Nature="1" IsEnable="true" Description="" />
+      <Subsidiary GroupCode="3" LedgerCode="2" Code="119" Title="افزایش سرمایه" Nature="1" IsEnable="true" />
     </Ledger>
     <Ledger GroupCode="3" Code="3" Title="جاری شرکاء - بدهی ها" Nature="1" IsEnable="true">
       <Subsidiary GroupCode="3" LedgerCode="3" Code="101" Title="حسابهای پرداختنی به شرکاء" Nature="1" IsEnable="true" />
