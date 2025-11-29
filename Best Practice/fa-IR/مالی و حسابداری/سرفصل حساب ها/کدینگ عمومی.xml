@@ -146,10 +146,10 @@
       <Subsidiary GroupCode="3" LedgerCode="2" Code="108" Title="حق بیمه های پرداختنی" Nature="1" IsEnable="true" Description="" />
       <Subsidiary GroupCode="3" LedgerCode="2" Code="109" Title="حق الزحمه پرداختنی" Nature="1" IsEnable="true" Description="" />
       <Subsidiary GroupCode="3" LedgerCode="2" Code="110" Title="ودایع پرداختنی" Nature="1" IsEnable="true" />
-      <Subsidiary GroupCode="3" LedgerCode="2" Code="111" Title="ذخیره هزینه های معوق" Nature="1" IsEnable="true" />
-      <Subsidiary GroupCode="3" LedgerCode="2" Code="112" Title="ذخیره باز خرید مرخصی کارکنان" Nature="1" IsEnable="true" />
+      <Subsidiary GroupCode="3" LedgerCode="2" Code="111" Title="ذخیره باز خرید مرخصی کارکنان" Nature="1" IsEnable="true" Description="" />
+      <Subsidiary GroupCode="3" LedgerCode="2" Code="112" Title="ذخیره سنوات سالانه" Nature="1" IsEnable="true" Description="" />
       <Subsidiary GroupCode="3" LedgerCode="2" Code="113" Title="ذخیره عیدی و پاداش سالانه" Nature="1" IsEnable="true" Description="" />
-      <Subsidiary GroupCode="3" LedgerCode="2" Code="114" Title="سایر حسابهای پرداختنی متفرقه" Nature="1" IsEnable="true" />
+      <Subsidiary GroupCode="3" LedgerCode="2" Code="114" Title="سایر حسابهای پرداختنی" Nature="1" IsEnable="true" Description="" />
       <Subsidiary GroupCode="3" LedgerCode="2" Code="115" Title="مالیات ارزش افزوده - بدهی" Nature="1" IsEnable="true" Description="" />
       <Subsidiary GroupCode="3" LedgerCode="2" Code="116" Title="تفاوت ریال حقوق کارکنان (بدهی)" Nature="1" IsEnable="true" Description="" />
       <Subsidiary GroupCode="3" LedgerCode="2" Code="117" Title="مالیات حقوق پرداختنی" Nature="1" IsEnable="true" Description="" />
@@ -257,17 +257,17 @@
   </Group>
   <Group Code="8" Title="هزینه ها" Nature="0" IsEnable="true" IsInterim="true" Description="">
     <Ledger GroupCode="8" Code="1" Title="هزینه های پرسنلی" Nature="0" IsEnable="true">
-      <Subsidiary GroupCode="8" LedgerCode="1" Code="101" Title="عیدی و پاداش سالانه" Nature="0" IsEnable="true" />
+      <Subsidiary GroupCode="8" LedgerCode="1" Code="101" Title="هزینه عیدی و پاداش سالانه" Nature="0" IsEnable="true" Description="" />
       <Subsidiary GroupCode="8" LedgerCode="1" Code="102" Title="حقوق پایه - مزد شغل , مزد سنوات , ما به التفاوت تطبیق" Nature="0" IsEnable="true" />
       <Subsidiary GroupCode="8" LedgerCode="1" Code="103" Title="حق جذب" Nature="0" IsEnable="true" />
-      <Subsidiary GroupCode="8" LedgerCode="1" Code="104" Title="فوق العاده شغل" Nature="0" IsEnable="true" />
+      <Subsidiary GroupCode="8" LedgerCode="1" Code="104" Title="فوق العاده شغل" Nature="0" IsEnable="true" Description="" />
       <Subsidiary GroupCode="8" LedgerCode="1" Code="105" Title="فوق العاده شیفت و نوبت کاری" Nature="0" IsEnable="true" />
       <Subsidiary GroupCode="8" LedgerCode="1" Code="106" Title="حق نوبت کاری" Nature="0" IsEnable="true" />
       <Subsidiary GroupCode="8" LedgerCode="1" Code="107" Title="فوق العاده سختی کار" Nature="0" IsEnable="true" />
       <Subsidiary GroupCode="8" LedgerCode="1" Code="108" Title="فوق العاده خواربار" Nature="0" IsEnable="true" />
       <Subsidiary GroupCode="8" LedgerCode="1" Code="109" Title="فوق العاده عائله مندی - حق اولاد" Nature="0" IsEnable="true" />
       <Subsidiary GroupCode="8" LedgerCode="1" Code="110" Title="فوق العاده مسکن" Nature="0" IsEnable="true" />
-      <Subsidiary GroupCode="8" LedgerCode="1" Code="111" Title="فوق العاده صندوقداری" Nature="0" IsEnable="true" />
+      <Subsidiary GroupCode="8" LedgerCode="1" Code="111" Title="فوق العاده حق تاهل" Nature="0" IsEnable="true" Description="" />
       <Subsidiary GroupCode="8" LedgerCode="1" Code="112" Title="فوق العاده ایاب و ذهاب" Nature="0" IsEnable="true" />
       <Subsidiary GroupCode="8" LedgerCode="1" Code="113" Title="نهاری" Nature="0" IsEnable="true" />
       <Subsidiary GroupCode="8" LedgerCode="1" Code="114" Title="اضافه کاری" Nature="0" IsEnable="true" />
@@ -279,7 +279,7 @@
       <Subsidiary GroupCode="8" LedgerCode="1" Code="120" Title="حق بیمه سهم کارفرما" Nature="0" IsEnable="true" />
       <Subsidiary GroupCode="8" LedgerCode="1" Code="121" Title="بیمه عمر و حوادث کارکنان سهم کارفرما" Nature="0" IsEnable="true" />
       <Subsidiary GroupCode="8" LedgerCode="1" Code="122" Title="بیمه مازاد درمان کارکنان سهم کارفرما" Nature="0" IsEnable="true" />
-      <Subsidiary GroupCode="8" LedgerCode="1" Code="123" Title="سهم صندوق کارآموزی" Nature="0" IsEnable="true" />
+      <Subsidiary GroupCode="8" LedgerCode="1" Code="123" Title="حق مسولیت" Nature="0" IsEnable="true" Description="" />
       <Subsidiary GroupCode="8" LedgerCode="1" Code="124" Title="هزینه بن خرید کالا" Nature="0" IsEnable="true" />
       <Subsidiary GroupCode="8" LedgerCode="1" Code="125" Title="هزینه پوشاک" Nature="0" IsEnable="true" />
       <Subsidiary GroupCode="8" LedgerCode="1" Code="126" Title="هزینه رستوران و غذای کارکنان" Nature="0" IsEnable="true" />
